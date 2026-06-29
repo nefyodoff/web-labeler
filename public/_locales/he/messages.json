@@ -1,0 +1,815 @@
+{
+  "appName": {
+    "message": "WebLabeler",
+    "description": "שם האפליקציה"
+  },
+  "appDescription": {
+    "message": "תייג את הפרויקטים שלך בקלות והימנע מבלבול בין סביבות ייצור, בדיקות ופיתוח",
+    "description": "תיאור ההרחבה"
+  },
+
+  "common_save": {
+    "message": "שמור",
+    "description": "כפתור שמירה"
+  },
+  "common_confirm": {
+    "message": "אשר",
+    "description": "כפתור אישור"
+  },
+  "common_cancel": {
+    "message": "בטל",
+    "description": "כפתור ביטול"
+  },
+  "common_delete": {
+    "message": "מחק",
+    "description": "כפתור מחיקה"
+  },
+  "common_noname": {
+    "message": "[ללא שם]",
+    "description": "מציין מיקום לפריטים ללא שם"
+  },
+
+  "optionsPage_title": {
+    "message": "WebLabeler",
+    "description": "כותרת דף האפשרויות"
+  },
+  "optionsPage_switchOn": {
+    "message": "פעיל",
+    "description": "תווית מתג הפעלה"
+  },
+  "optionsPage_switchOff": {
+    "message": "כבוי",
+    "description": "תווית מתג כיבוי"
+  },
+
+  "popup_title": {
+    "message": "WebLabeler",
+    "description": "כותרת חלון הקופץ"
+  },
+  "popup_switchOn": {
+    "message": "פעיל",
+    "description": "תווית מתג הפעלה בחלון הקופץ"
+  },
+  "popup_switchOff": {
+    "message": "כבוי",
+    "description": "תווית מתג כיבוי בחלון הקופץ"
+  },
+  "popup_manageLabels": {
+    "message": "נהל את כל התגיות",
+    "description": "כפתור ניהול תגיות"
+  },
+  "popup_noLabels": {
+    "message": "אין תגיות זמינות. צור תגיות בהגדרות.",
+    "description": "הודעה כשאין תגיות"
+  },
+  "popup_noMatchInfo": {
+    "message": "אתר זה אינו תואם לאף תגית עדיין",
+    "description": "הודעה כשה-URL אינו תואם לאף תגית"
+  },
+  "popup_addToLabel": {
+    "message": "הוסף לתגית",
+    "description": "כפתור הוספה לתגית"
+  },
+  "popup_addRuleTitle": {
+    "message": "הוסף אתר זה לתגית",
+    "description": "כותרת טופס הוספת כלל"
+  },
+  "popup_selectLabel_placeholder": {
+    "message": "בחר תגית...",
+    "description": "מציין מיקום לרשימת בחירת תגית"
+  },
+  "popup_addRule": {
+    "message": "הוסף כלל",
+    "description": "כפתור הוספת כלל"
+  },
+  "popup_matchedLabel": {
+    "message": "תגית תואמת",
+    "description": "כותרת מקטע התגית התואמת"
+  },
+  "popup_cyclePosition": {
+    "message": "שנה מיקום",
+    "description": "תווית aria לכפתור שינוי מיקום"
+  },
+  "popup_currentPosition": {
+    "message": "מיקום",
+    "description": "תווית המיקום הנוכחי"
+  },
+  "popup_editRule": {
+    "message": "ערוך כלל",
+    "description": "תיאור כלי לכפתור עריכת כלל"
+  },
+  "popup_editRuleTitle": {
+    "message": "ערוך כלל",
+    "description": "כותרת חלון עריכת כלל"
+  },
+  "popup_deleteRule": {
+    "message": "מחק כלל",
+    "description": "תיאור כלי לכפתור מחיקת כלל"
+  },
+  "popup_deleteRuleTitle": {
+    "message": "מחק כלל",
+    "description": "כותרת חלון מחיקת כלל"
+  },
+  "popup_deleteRuleConfirm": {
+    "message": "האם אתה בטוח שברצונך למחוק כלל זה?",
+    "description": "הודעת אישור מחיקת כלל"
+  },
+
+  "label_name": {
+    "message": "שם",
+    "description": "שדה שם התגית"
+  },
+  "label_name_placeholder": {
+    "message": "שם",
+    "description": "מציין מיקום לשם התגית"
+  },
+  "label_shape": {
+    "message": "צורה",
+    "description": "בורר צורה"
+  },
+  "label_backgroundColor": {
+    "message": "צבע רקע",
+    "description": "שדה צבע רקע"
+  },
+  "label_backgroundColor_placeholder": {
+    "message": "צבע רקע",
+    "description": "מציין מיקום לצבע רקע"
+  },
+  "label_textColor": {
+    "message": "צבע טקסט",
+    "description": "שדה צבע טקסט"
+  },
+  "label_textColor_placeholder": {
+    "message": "צבע טקסט",
+    "description": "מציין מיקום לצבע טקסט"
+  },
+  "label_opacity": {
+    "message": "שקיפות",
+    "description": "סרגל שקיפות"
+  },
+  "label_hoveredOpacity": {
+    "message": "שקיפות בריחוף",
+    "description": "סרגל שקיפות בריחוף"
+  },
+  "label_scale": {
+    "message": "גודל",
+    "description": "סרגל גודל"
+  },
+  "label_fontSize": {
+    "message": "גודל גופן",
+    "description": "סרגל גודל גופן"
+  },
+  "label_border": {
+    "message": "מסגרת",
+    "description": "בורר מסגרת"
+  },
+  "label_borderColor": {
+    "message": "צבע מסגרת",
+    "description": "שדה צבע מסגרת"
+  },
+  "label_borderColor_placeholder": {
+    "message": "צבע מסגרת",
+    "description": "מציין מיקום לצבע מסגרת"
+  },
+  "label_borderWidth": {
+    "message": "עובי מסגרת",
+    "description": "שדה עובי מסגרת"
+  },
+  "label_settings": {
+    "message": "הגדרות",
+    "description": "כותרת מקטע הגדרות"
+  },
+  "label_preview": {
+    "message": "תצוגה מקדימה",
+    "description": "כותרת מקטע תצוגה מקדימה"
+  },
+  "label_preview_window": {
+    "message": "חלון",
+    "description": "תווית חלון תצוגה מקדימה"
+  },
+  "label_preview_yourTab": {
+    "message": "הכרטיסייה שלך",
+    "description": "כותרת כרטיסיית תצוגה מקדימה"
+  },
+
+  "label_shape_triangle": {
+    "message": "משולש",
+    "description": "צורת משולש"
+  },
+  "label_shape_ribbon": {
+    "message": "סרט",
+    "description": "צורת סרט"
+  },
+  "label_shape_banner": {
+    "message": "כרזה",
+    "description": "צורת כרזה"
+  },
+  "label_shape_frame": {
+    "message": "מסגרת",
+    "description": "צורת מסגרת"
+  },
+
+  "label_border_none": {
+    "message": "ללא",
+    "description": "ללא מסגרת"
+  },
+  "label_border_solid": {
+    "message": "רציף",
+    "description": "מסגרת רציפה"
+  },
+  "label_border_dashed": {
+    "message": "מקווקו",
+    "description": "מסגרת מקווקוות"
+  },
+  "label_border_dotted": {
+    "message": "מנוקד",
+    "description": "מסגרת מנוקדת"
+  },
+
+  "label_faviconStyling": {
+    "message": "עיצוב אייקון",
+    "description": "תווית עיצוב אייקון"
+  },
+  "label_iconOnlyMode": {
+    "message": "מצב אייקון בלבד",
+    "description": "מתג מצב אייקון בלבד"
+  },
+  "label_iconOnlyMode_description": {
+    "message": "הסתר את התג בדף והצג רק את האייקון",
+    "description": "תיאור מצב אייקון בלבד"
+  },
+  "label_iconOnlyMode_alert_title": {
+    "message": "מצב אייקון בלבד",
+    "description": "כותרת התראת מצב אייקון בלבד"
+  },
+  "label_iconOnlyMode_alert_message": {
+    "message": "התג בדף מוסתר. מוצג רק האייקון המותאם אישית.",
+    "description": "הודעת התראת מצב אייקון בלבד"
+  },
+
+  "label_iconStyle_none": {
+    "message": "ללא",
+    "description": "אפשרות סגנון אייקון - ללא"
+  },
+  "label_iconStyle_badge": {
+    "message": "השתמש בסגנון תג",
+    "description": "אפשרות סגנון אייקון - תג"
+  },
+
+  "label_collapseButton_less": {
+    "message": "פחות",
+    "description": "כפתור כיווץ - הצג פחות"
+  },
+  "label_collapseButton_more": {
+    "message": "עוד",
+    "description": "כפתור הרחבה - הצג עוד"
+  },
+
+  "rules_addRule": {
+    "message": "הוסף כלל",
+    "description": "כפתור הוספת כלל"
+  },
+  "rules_placeholder_regexp": {
+    "message": "תבנית ביטוי רגולרי (לדוגמה: /article/.*)",
+    "description": "מציין מיקום לקלט ביטוי רגולרי"
+  },
+  "rules_placeholder_fullUrl": {
+    "message": "כתובת URL או חלק ממנה (ללא פרוטוקול)",
+    "description": "מציין מיקום לקלט URL מלא"
+  },
+  "rules_placeholder_hostname": {
+    "message": "דומיין או חלק ממנו (ללא פרוטוקול)",
+    "description": "מציין מיקום לקלט דומיין"
+  },
+  "rules_validation_empty": {
+    "message": "ערך הכלל אינו יכול להיות ריק",
+    "description": "שגיאת אימות כלל ריק"
+  },
+  "rules_validation_invalidRegexp": {
+    "message": "תבנית ביטוי רגולרי לא חוקית",
+    "description": "שגיאת אימות ביטוי רגולרי לא חוקי"
+  },
+
+  "ruleType_contains": {
+    "message": "מכיל",
+    "description": "סוג כלל - מכיל"
+  },
+  "ruleType_startsWith": {
+    "message": "מתחיל ב-",
+    "description": "סוג כלל - מתחיל ב-"
+  },
+  "ruleType_endsWith": {
+    "message": "מסתיים ב-",
+    "description": "סוג כלל - מסתיים ב-"
+  },
+  "ruleType_matches": {
+    "message": "תואם",
+    "description": "סוג כלל - תואם"
+  },
+  "ruleType_regexp": {
+    "message": "תואם ביטוי רגולרי",
+    "description": "סוג כלל - ביטוי רגולרי"
+  },
+
+  "sourceType_hostname": {
+    "message": "דומיין",
+    "description": "סוג מקור - דומיין"
+  },
+  "sourceType_fullUrl": {
+    "message": "URL מלא",
+    "description": "סוג מקור - URL מלא"
+  },
+
+  "labelList_addLabel": {
+    "message": "הוסף תגית",
+    "description": "כפתור הוספת תגית"
+  },
+  "labelList_newLabel": {
+    "message": "תגית חדשה",
+    "description": "כותרת חלון תגית חדשה"
+  },
+  "labelList_deleteLabels": {
+    "message": "מחק תגיות",
+    "description": "כותרת חלון מחיקת תגיות"
+  },
+  "labelList_deleteLabel": {
+    "message": "מחק תגית",
+    "description": "כותרת חלון מחיקת תגית בודדת"
+  },
+  "labelList_deleteConfirm_multiple": {
+    "message": "האם אתה בטוח שברצונך למחוק $1 תגיות נבחרות?",
+    "description": "אישור מחיקת תגיות מרובות, $1=כמות"
+  },
+  "labelList_deleteConfirm_single": {
+    "message": "האם אתה בטוח שברצונך למחוק את התגית \"$1\"?",
+    "description": "אישור מחיקת תגית בודדת, $1=שם התגית"
+  },
+  "labelList_combine": {
+    "message": "מזג",
+    "description": "כפתור מיזוג"
+  },
+  "labelList_combineTitle": {
+    "message": "מזג תגיות נבחרות אל",
+    "description": "כותרת חלון מיזוג"
+  },
+
+  "labelList_header_name": {
+    "message": "שם תגית",
+    "description": "כותרת טבלה - שם"
+  },
+  "labelList_header_rules": {
+    "message": "כללים",
+    "description": "כותרת טבלה - כללים"
+  },
+  "labelList_header_settings": {
+    "message": "הגדרות",
+    "description": "כותרת טבלה - הגדרות"
+  },
+  "labelList_header_actions": {
+    "message": "פעולות",
+    "description": "כותרת טבלה - פעולות"
+  },
+  "labelList_empty": {
+    "message": "אין תגיות",
+    "description": "הודעת מצב ריק"
+  },
+  "labelList_tooltip_reorder": {
+    "message": "גרור פריטים לסידור מחדש. התגיות נבדקות מלמעלה למטה; המטח הראשון מוצג",
+    "description": "תיאור כלי לסידור מחדש"
+  },
+
+  "labelSettings_badge": {
+    "message": "תג",
+    "description": "כפתור/כותרת חלון תג"
+  },
+  "labelSettings_badge_iconOnly": {
+    "message": "תג (מצב אייקון בלבד)",
+    "description": "כותרת חלון תג במצב אייקון בלבד"
+  },
+  "labelSettings_icon": {
+    "message": "אייקון",
+    "description": "כפתור/כותרת חלון אייקון"
+  },
+  "labelSettings_rules": {
+    "message": "כללים",
+    "description": "כפתור/כותרת חלון כללים"
+  },
+  "labelSettings_rules_tooltip": {
+    "message": "התגית מוצגת כאשר כלל בודד תואם (לוגיקת OR בין שורות)",
+    "description": "תיאור כלי לכללים"
+  },
+
+  "labelSettings_experimental": {
+    "message": "ניסיוני",
+    "description": "תג תכונה ניסיונית"
+  },
+  "labelSettings_experimental_message": {
+    "message": "תכונה זו ניסיונית ועשויה לא לפעול כצפוי. אם נתקלת בבעיות כלשהן או יש לך הצעות, אנא עדכן את המפתח.",
+    "description": "הודעת תכונה ניסיונית"
+  },
+  "labelSettings_experimental_enjoy": {
+    "message": "ואם אתה באמת נהנה להשתמש בה — ספר לו גם על כך, זה עשוי לשמח אותו 😊🙏!",
+    "description": "הודעת הנאה מתכונה ניסיונית"
+  },
+
+  "combineModal_selectTarget": {
+    "message": "בחר תגית יעד",
+    "description": "מציין מיקום לבחירת תגית יעד"
+  },
+  "combineModal_explanation": {
+    "message": "כל הכללים מהתגיות הנבחרות יועברו לתגית היעד. התגיות הנבחרות האחרות יימחקו.",
+    "description": "הסבר מיזוג"
+  },
+  "combineModal_confirmQuestion": {
+    "message": "האם אתה בטוח שברצונך להמשיך?",
+    "description": "שאלת אישור מיזוג"
+  },
+
+  "confirmationModal_defaultMessage": {
+    "message": "האם אתה בטוח?",
+    "description": "הודעת אישור ברירת מחדל"
+  },
+
+  "positionControl_tooltip": {
+    "message": "מקם תגית במיקום $1",
+    "description": "תיאור כלי לבקרת מיקום, $1=שם המיקום"
+  },
+
+  "export_selected": {
+    "message": "ייצא נבחרים",
+    "description": "כפתור ייצוא נבחרים"
+  },
+  "export_all": {
+    "message": "ייצא תגיות",
+    "description": "כפתור ייצוא הכל"
+  },
+
+  "import_title": {
+    "message": "ייבא תגיות",
+    "description": "כותרת חלון ייבוא"
+  },
+  "import_button": {
+    "message": "ייבא תגיות",
+    "description": "כפתור ייבוא"
+  },
+  "import_fromFile": {
+    "message": "מקובץ",
+    "description": "פריט תפריט ייבוא מקובץ"
+  },
+  "import_fromUrl": {
+    "message": "מ-URL",
+    "description": "פריט תפריט ייבוא מ-URL"
+  },
+  "import_fromExtension": {
+    "message": "מהרחבה אחרת",
+    "description": "פריט תפריט ייבוא מהרחבה"
+  },
+
+  "importTab_fromFile": {
+    "message": "מקובץ",
+    "description": "כרטיסיית ייבוא מקובץ"
+  },
+  "importTab_fromUrl": {
+    "message": "מ-URL",
+    "description": "כרטיסיית ייבוא מ-URL"
+  },
+  "importTab_fromExtension": {
+    "message": "מהרחבה אחרת",
+    "description": "כרטיסיית ייבוא מהרחבה"
+  },
+
+  "importFromFile_dropzone": {
+    "message": "גרור קובץ לכאן או לחץ לבחירה",
+    "description": "טקסט אזור גרירה ושחרור"
+  },
+  "importFromFile_dropzone_description": {
+    "message": "השתמש בקובץ תצורה מיוצא בפורמט JSON",
+    "description": "תיאור אזור גרירה ושחרור"
+  },
+  "importFromFile_error_title": {
+    "message": "נכשל בקריאת הקובץ",
+    "description": "כותרת שגיאת קריאת קובץ"
+  },
+
+  "importFromUrl_label": {
+    "message": "URL",
+    "description": "תווית קלט URL"
+  },
+  "importFromUrl_description": {
+    "message": "URL לקובץ JSON המכיל תצורות תגיות",
+    "description": "תיאור קלט URL"
+  },
+  "importFromUrl_placeholder": {
+    "message": "https://example.com/labels.json",
+    "description": "מציין מיקום לקלט URL"
+  },
+  "importFromUrl_clearInput": {
+    "message": "נקה קלט",
+    "description": "תווית aria לניקוי קלט"
+  },
+  "importFromUrl_autoSync": {
+    "message": "סנכרון אוטומטי",
+    "description": "תווית סנכרון אוטומטי"
+  },
+  "importFromUrl_autoSync_description": {
+    "message": "עדכן תגיות אוטומטית מה-URL בתדירות שצוינה",
+    "description": "תיאור סנכרון אוטומטי"
+  },
+  "importFromUrl_lastSynced": {
+    "message": "סונכרן לאחרונה: $1",
+    "description": "טקסט סנכרון אחרון, $1=חותמת זמן"
+  },
+  "importFromUrl_syncNow": {
+    "message": "סנכרן עכשיו",
+    "description": "כפתור סנכרן עכשיו"
+  },
+  "importFromUrl_saveSettings": {
+    "message": "שמור הגדרות",
+    "description": "כפתור שמירת הגדרות"
+  },
+
+  "importFromUrl_cloudService_generic": {
+    "message": "URL לקובץ JSON",
+    "description": "תיאור כלי לשירות ענן כללי"
+  },
+  "importFromUrl_cloudService_detected": {
+    "message": "זוהה URL של $1. יומר לקישור הורדה ישיר.",
+    "description": "תיאור כלי לזיהוי שירות ענן, $1=שם השירות"
+  },
+  "importFromUrl_cloudService_direct": {
+    "message": "זוהה קישור הורדה ישיר של $1.",
+    "description": "תיאור כלי לקישור הורדה ישיר, $1=שם השירות"
+  },
+
+  "importFromUrl_permissionRequired": {
+    "message": "נדרשת הרשאה",
+    "description": "כותרת התראת הרשאה נדרשת"
+  },
+  "importFromUrl_syncFailed": {
+    "message": "הסנכרון נכשל",
+    "description": "כותרת התראת כשל סנכרון"
+  },
+
+  "cloudService_googleDrive": {
+    "message": "Google Drive",
+    "description": "שם Google Drive"
+  },
+  "cloudService_oneDrive": {
+    "message": "OneDrive",
+    "description": "שם OneDrive"
+  },
+  "cloudService_dropbox": {
+    "message": "Dropbox",
+    "description": "שם Dropbox"
+  },
+
+  "importFromExtension_alert_title": {
+    "message": "תכונה זו עוזרת לך להעביר תגיות קיימות מהרחבות אחרות.",
+    "description": "כותרת התראת ייבוא מהרחבה"
+  },
+  "importFromExtension_alert_message": {
+    "message": "אנו מכבדים את עבודתם של מפתחי הרחבות אחרות ומספקים אפשרות זו אך ורק לנוחות המשתמשים שרוצים לנסות את WebLabeler.",
+    "description": "הודעת התראת ייבוא מהרחבה"
+  },
+  "importFromExtension_selectLabel": {
+    "message": "ייבא מ-",
+    "description": "תווית בחירת ייבוא"
+  },
+  "importFromExtension_combineMode": {
+    "message": "מזג תגיות עם מאפיינים תואמים",
+    "description": "תווית מתג מצב מיזוג"
+  },
+  "importFromExtension_combineMode_description": {
+    "message": "תגיות עם אותו שם, צבע, גודל גופן ומיקום יאוחדו לתגית אחת עם כללים משולבים. ניתן גם למזג תגיות ידנית לאחר הייבוא.",
+    "description": "תיאור מצב מיזוג"
+  },
+  "importFromExtension_dropzone": {
+    "message": "גרור קובץ לכאן או לחץ לבחירה",
+    "description": "טקסט אזור גרירה לייבוא מהרחבה"
+  },
+  "importFromExtension_dropzone_description": {
+    "message": "השתמש בקובץ תגיות מיוצא מהרחבת Environment Marker בפורמט JSON",
+    "description": "תיאור אזור גרירה לייבוא מהרחבה"
+  },
+  "importFromExtension_error_title": {
+    "message": "נכשל בייבוא תגיות",
+    "description": "כותרת שגיאת ייבוא"
+  },
+
+  "importLabels_title_default": {
+    "message": "ייבא תגיות",
+    "description": "כותרת ייבוא ברירת מחדל"
+  },
+  "importLabels_title_fromFile": {
+    "message": "ייבא תגיות מקובץ",
+    "description": "כותרת ייבוא מקובץ"
+  },
+  "importLabels_title_fromUrl": {
+    "message": "ייבא תגיות מ-URL",
+    "description": "כותרת ייבוא מ-URL"
+  },
+  "importLabels_title_fromExtension": {
+    "message": "ייבא תגיות מ-Environment Marker",
+    "description": "כותרת ייבוא מהרחבה"
+  },
+  "importLabels_prefix_default": {
+    "message": "מהמקור המיובא:",
+    "description": "קידומת הודעת ייבוא ברירת מחדל"
+  },
+  "importLabels_prefix_file": {
+    "message": "מהקובץ:",
+    "description": "קידומת ייבוא מקובץ"
+  },
+  "importLabels_prefix_url": {
+    "message": "מה-URL:",
+    "description": "קידומת ייבוא מ-URL"
+  },
+  "importLabels_prefix_extension": {
+    "message": "מהקובץ:",
+    "description": "קידומת ייבוא מהרחבה"
+  },
+  "importLabels_prefix_extension_combined": {
+    "message": "מהקובץ (אוחדו $1 תגיות ל-$2):",
+    "description": "ייבוא עם סטטיסטיקות מיזוג, $1=כמות מקורית, $2=כמות לאחר מיזוג"
+  },
+  "importLabels_message_new": {
+    "message": "$1 $2 חדשות יתווספו",
+    "description": "הודעת תגיות חדשות, $1=כמות, $2=תגית/תגיות"
+  },
+  "importLabels_message_updated": {
+    "message": "$1 $2 קיימות יעודכנו",
+    "description": "הודעת תגיות מעודכנות, $1=כמות, $2=תגית/תגיות"
+  },
+  "importLabels_label_singular": {
+    "message": "תגית",
+    "description": "תגית ביחיד"
+  },
+  "importLabels_label_plural": {
+    "message": "תגיות",
+    "description": "תגית ברבים"
+  },
+
+  "validation_invalidUrl": {
+    "message": "URL לא חוקי או סנכרון מתבצע",
+    "description": "שגיאת URL לא חוקי"
+  },
+  "validation_permissionDenied": {
+    "message": "ההרשאה נדחתה",
+    "description": "שגיאת דחיית הרשאה"
+  },
+  "validation_invalidArray": {
+    "message": "הקובץ אינו מכיל מערך חוקי",
+    "description": "שגיאת מערך לא חוקי"
+  },
+  "validation_emptyFile": {
+    "message": "הקובץ ריק",
+    "description": "שגיאת קובץ ריק"
+  },
+  "validation_invalidItem": {
+    "message": "פריט לא חוקי במיקום $1",
+    "description": "שגיאת פריט לא חוקי, $1=מיקום"
+  },
+  "validation_missingField": {
+    "message": "שדה חובה \"$1\" חסר במיקום $2",
+    "description": "שגיאת שדה חסר, $1=שם השדה, $2=מיקום"
+  },
+  "validation_invalidLabels": {
+    "message": "הקובץ אינו מכיל תגיות חוקיות",
+    "description": "שגיאת תגיות לא חוקיות"
+  },
+  "validation_invalidLabelsUrl": {
+    "message": "ה-URL אינו מחזיר מערך תגיות חוקי",
+    "description": "שגיאת תגיות לא חוקיות מ-URL"
+  },
+  "validation_communicationError": {
+    "message": "שגיאת תקשורת עם הסקריפט ברקע",
+    "description": "שגיאת תקשורת עם סקריפט ברקע"
+  },
+  "validation_fetchFailed": {
+    "message": "נכשל בקבלת נתונים",
+    "description": "שגיאת כשל בשליפה"
+  },
+  "validation_error": {
+    "message": "שגיאת אימות",
+    "description": "שגיאת אימות כללית"
+  },
+  "validation_unknownError": {
+    "message": "שגיאה לא ידועה",
+    "description": "שגיאה לא ידועה כחלופה"
+  },
+
+  "updateFrequency_disabled": {
+    "message": "מושבת",
+    "description": "תדירות עדכון - מושבת"
+  },
+  "updateFrequency_15min": {
+    "message": "כל 15 דקות",
+    "description": "תדירות עדכון - 15 דקות"
+  },
+  "updateFrequency_30min": {
+    "message": "כל 30 דקות",
+    "description": "תדירות עדכון - 30 דקות"
+  },
+  "updateFrequency_1hour": {
+    "message": "כל שעה",
+    "description": "תדירות עדכון - שעה"
+  },
+  "updateFrequency_6hours": {
+    "message": "כל 6 שעות",
+    "description": "תדירות עדכון - 6 שעות"
+  },
+  "updateFrequency_24hours": {
+    "message": "פעם ביום",
+    "description": "תדירות עדכון - 24 שעות"
+  },
+
+  "autoSync_label": {
+    "message": "סנכרון אוטומטי",
+    "description": "תווית סנכרון אוטומטי"
+  },
+  "autoSync_syncUrl": {
+    "message": "URL סנכרון",
+    "description": "כותרת כרטיס URL סנכרון"
+  },
+  "autoSync_lastPrefix": {
+    "message": "אחרון: ",
+    "description": "קידומת סנכרון אחרון"
+  },
+  "autoSync_error": {
+    "message": "שגיאה",
+    "description": "תג שגיאה"
+  },
+  "autoSync_syncError": {
+    "message": "שגיאת סנכרון",
+    "description": "כותרת כרטיס שגיאת סנכרון"
+  },
+  "autoSync_syncNow": {
+    "message": "סנכרן עכשיו",
+    "description": "תיאור כלי לסנכרן עכשיו"
+  },
+
+  "relativeTime_justNow": {
+    "message": "עכשיו",
+    "description": "זמן יחסי - עכשיו"
+  },
+  "relativeTime_minutesAgo": {
+    "message": "לפני $1 דקה",
+    "description": "זמן יחסי - דקה לפני, $1=כמות"
+  },
+  "relativeTime_minutesAgo_plural": {
+    "message": "לפני $1 דקות",
+    "description": "זמן יחסי - דקות לפני, $1=כמות"
+  },
+  "relativeTime_hoursAgo": {
+    "message": "לפני $1 שעה",
+    "description": "זמן יחסי - שעה לפני, $1=כמות"
+  },
+  "relativeTime_hoursAgo_plural": {
+    "message": "לפני $1 שעות",
+    "description": "זמן יחסי - שעות לפני, $1=כמות"
+  },
+  "relativeTime_daysAgo": {
+    "message": "לפני $1 יום",
+    "description": "זמן יחסי - יום לפני, $1=כמות"
+  },
+  "relativeTime_daysAgo_plural": {
+    "message": "לפני $1 ימים",
+    "description": "זמן יחסי - ימים לפני, $1=כמות"
+  },
+
+  "footer_helpful": {
+    "message": "מצאת את ההרחבה מועילה?",
+    "description": "טקסט כותרת תחתונה על תועלת"
+  },
+  "footer_rate": {
+    "message": "דרג הרחבה זו",
+    "description": "כפתור דירוג בכותרת התחתונה"
+  },
+
+  "featureBadge_contactDeveloper": {
+    "message": "צור קשר עם המפתח",
+    "description": "כפתור יצירת קשר עם המפתח"
+  },
+  "featureBadge_rate": {
+    "message": "דרג",
+    "description": "כפתור דירוג"
+  },
+
+  "themeSwitcher_ariaLabel": {
+    "message": "החלף ערכת צבעים",
+    "description": "תווית aria למחליף ערכת צבעים"
+  },
+
+  "language_select": {
+    "message": "בחר שפה",
+    "description": "תווית תפריט בחירת שפה"
+  },
+  "language_useBrowser": {
+    "message": "השתמש בשפת הדפדפן",
+    "description": "אפשרות שימוש בשפת הדפדפן"
+  },
+  "languageSelector_ariaLabel": {
+    "message": "בחר שפה",
+    "description": "תווית aria לבורר שפה"
+  }
+}

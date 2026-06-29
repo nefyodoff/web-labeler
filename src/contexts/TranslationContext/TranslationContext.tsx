@@ -8,7 +8,7 @@ import {
   useState,
 } from "react"
 import { useOptionsContext } from "@/contexts/OptionsContext"
-import { MessageKey, SupportedLocale, TranslationFunction } from "@/i18n"
+import { MessageKey, SupportedLocale, TranslationFunction, RTL_LOCALES } from "@/i18n"
 import { DEFAULT_LOCALE } from "@/i18n"
 
 interface MessageEntry {
@@ -21,6 +21,7 @@ type MessagesMap = Record<string, MessageEntry>
 export interface TranslationContextValue {
   t: TranslationFunction
   currentLocale: SupportedLocale
+  isRtl: boolean
   isReady: boolean
 }
 
@@ -126,9 +127,15 @@ export function TranslationProvider({ children }: { children: ReactNode }) {
     [messages, userLocale]
   )
 
+  const isRtl = RTL_LOCALES.includes(effectiveLocale)
+
+  useEffect(() => {
+    document.documentElement.dir = isRtl ? "rtl" : "ltr"
+  }, [isRtl])
+
   const value = useMemo(
-    () => ({ t, currentLocale: effectiveLocale, isReady }),
-    [t, effectiveLocale, isReady]
+    () => ({ t, currentLocale: effectiveLocale, isRtl, isReady }),
+    [t, effectiveLocale, isRtl, isReady]
   )
 
   // Wait for options to initialize before rendering

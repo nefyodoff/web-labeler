@@ -1,4 +1,4 @@
-export { SUPPORTED_LANGUAGES, DEFAULT_LOCALE } from "./constants.ts"
+export { SUPPORTED_LANGUAGES, DEFAULT_LOCALE, RTL_LOCALES } from "./constants.ts"
 export type {
   SupportedLocale,
   LanguageConfig,

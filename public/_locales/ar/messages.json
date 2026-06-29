@@ -1,0 +1,815 @@
+{
+  "appName": {
+    "message": "WebLabeler",
+    "description": "اسم التطبيق"
+  },
+  "appDescription": {
+    "message": "صنّف مشاريعك بسهولة وتجنّب الخلط بين بيئات الإنتاج والاختبار والتطوير",
+    "description": "وصف الإضافة"
+  },
+
+  "common_save": {
+    "message": "حفظ",
+    "description": "زر الحفظ"
+  },
+  "common_confirm": {
+    "message": "تأكيد",
+    "description": "زر التأكيد"
+  },
+  "common_cancel": {
+    "message": "إلغاء",
+    "description": "زر الإلغاء"
+  },
+  "common_delete": {
+    "message": "حذف",
+    "description": "زر الحذف"
+  },
+  "common_noname": {
+    "message": "[بدون اسم]",
+    "description": "عنصر نائب للعناصر غير المسماة"
+  },
+
+  "optionsPage_title": {
+    "message": "WebLabeler",
+    "description": "عنوان صفحة الخيارات"
+  },
+  "optionsPage_switchOn": {
+    "message": "تشغيل",
+    "description": "تسمية مفتاح التشغيل"
+  },
+  "optionsPage_switchOff": {
+    "message": "إيقاف",
+    "description": "تسمية مفتاح الإيقاف"
+  },
+
+  "popup_title": {
+    "message": "WebLabeler",
+    "description": "عنوان النافذة المنبثقة"
+  },
+  "popup_switchOn": {
+    "message": "تشغيل",
+    "description": "تسمية مفتاح التشغيل في النافذة المنبثقة"
+  },
+  "popup_switchOff": {
+    "message": "إيقاف",
+    "description": "تسمية مفتاح الإيقاف في النافذة المنبثقة"
+  },
+  "popup_manageLabels": {
+    "message": "إدارة جميع التسميات",
+    "description": "زر إدارة التسميات"
+  },
+  "popup_noLabels": {
+    "message": "لا توجد تسميات. أنشئ تسميات في الإعدادات.",
+    "description": "رسالة عند عدم وجود تسميات"
+  },
+  "popup_noMatchInfo": {
+    "message": "هذا الموقع لا يطابق أي تسمية بعد",
+    "description": "رسالة عندما لا يطابق الرابط أي تسمية"
+  },
+  "popup_addToLabel": {
+    "message": "إضافة إلى تسمية",
+    "description": "زر الإضافة إلى التسمية"
+  },
+  "popup_addRuleTitle": {
+    "message": "إضافة هذا الموقع إلى تسمية",
+    "description": "عنوان نموذج إضافة القاعدة"
+  },
+  "popup_selectLabel_placeholder": {
+    "message": "اختر تسمية...",
+    "description": "عنصر نائب لقائمة اختيار التسمية"
+  },
+  "popup_addRule": {
+    "message": "إضافة قاعدة",
+    "description": "زر إضافة القاعدة"
+  },
+  "popup_matchedLabel": {
+    "message": "التسمية المطابقة",
+    "description": "عنوان قسم التسمية المطابقة"
+  },
+  "popup_cyclePosition": {
+    "message": "تغيير الموضع",
+    "description": "تسمية aria لزر تغيير الموضع"
+  },
+  "popup_currentPosition": {
+    "message": "الموضع",
+    "description": "تسمية الموضع الحالي"
+  },
+  "popup_editRule": {
+    "message": "تعديل القاعدة",
+    "description": "تلميح زر تعديل القاعدة"
+  },
+  "popup_editRuleTitle": {
+    "message": "تعديل القاعدة",
+    "description": "عنوان نافذة تعديل القاعدة"
+  },
+  "popup_deleteRule": {
+    "message": "حذف القاعدة",
+    "description": "تلميح زر حذف القاعدة"
+  },
+  "popup_deleteRuleTitle": {
+    "message": "حذف القاعدة",
+    "description": "عنوان نافذة حذف القاعدة"
+  },
+  "popup_deleteRuleConfirm": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه القاعدة؟",
+    "description": "رسالة تأكيد حذف القاعدة"
+  },
+
+  "label_name": {
+    "message": "الاسم",
+    "description": "حقل اسم التسمية"
+  },
+  "label_name_placeholder": {
+    "message": "الاسم",
+    "description": "عنصر نائب لاسم التسمية"
+  },
+  "label_shape": {
+    "message": "الشكل",
+    "description": "محدد الشكل"
+  },
+  "label_backgroundColor": {
+    "message": "لون الخلفية",
+    "description": "حقل لون الخلفية"
+  },
+  "label_backgroundColor_placeholder": {
+    "message": "لون الخلفية",
+    "description": "عنصر نائب للون الخلفية"
+  },
+  "label_textColor": {
+    "message": "لون النص",
+    "description": "حقل لون النص"
+  },
+  "label_textColor_placeholder": {
+    "message": "لون النص",
+    "description": "عنصر نائب للون النص"
+  },
+  "label_opacity": {
+    "message": "الشفافية",
+    "description": "شريط تمرير الشفافية"
+  },
+  "label_hoveredOpacity": {
+    "message": "شفافية التمرير",
+    "description": "شريط تمرير شفافية التمرير"
+  },
+  "label_scale": {
+    "message": "الحجم",
+    "description": "شريط تمرير الحجم"
+  },
+  "label_fontSize": {
+    "message": "حجم الخط",
+    "description": "شريط تمرير حجم الخط"
+  },
+  "label_border": {
+    "message": "الحدود",
+    "description": "محدد الحدود"
+  },
+  "label_borderColor": {
+    "message": "لون الحدود",
+    "description": "حقل لون الحدود"
+  },
+  "label_borderColor_placeholder": {
+    "message": "لون الحدود",
+    "description": "عنصر نائب للون الحدود"
+  },
+  "label_borderWidth": {
+    "message": "سُمك الحدود",
+    "description": "حقل سُمك الحدود"
+  },
+  "label_settings": {
+    "message": "الإعدادات",
+    "description": "عنوان قسم الإعدادات"
+  },
+  "label_preview": {
+    "message": "المعاينة",
+    "description": "عنوان قسم المعاينة"
+  },
+  "label_preview_window": {
+    "message": "النافذة",
+    "description": "تسمية نافذة المعاينة"
+  },
+  "label_preview_yourTab": {
+    "message": "علامة التبويب",
+    "description": "عنوان علامة تبويب المعاينة"
+  },
+
+  "label_shape_triangle": {
+    "message": "مثلث",
+    "description": "شكل مثلث"
+  },
+  "label_shape_ribbon": {
+    "message": "شريط",
+    "description": "شكل شريط"
+  },
+  "label_shape_banner": {
+    "message": "لافتة",
+    "description": "شكل لافتة"
+  },
+  "label_shape_frame": {
+    "message": "إطار",
+    "description": "شكل إطار"
+  },
+
+  "label_border_none": {
+    "message": "بدون",
+    "description": "بدون حدود"
+  },
+  "label_border_solid": {
+    "message": "صلب",
+    "description": "حدود صلبة"
+  },
+  "label_border_dashed": {
+    "message": "متقطع",
+    "description": "حدود متقطعة"
+  },
+  "label_border_dotted": {
+    "message": "منقط",
+    "description": "حدود منقطة"
+  },
+
+  "label_faviconStyling": {
+    "message": "تنسيق الأيقونة",
+    "description": "تسمية تنسيق الأيقونة"
+  },
+  "label_iconOnlyMode": {
+    "message": "وضع الأيقونة فقط",
+    "description": "مفتاح وضع الأيقونة فقط"
+  },
+  "label_iconOnlyMode_description": {
+    "message": "إخفاء الشارة على الصفحة وعرض الأيقونة فقط",
+    "description": "وصف وضع الأيقونة فقط"
+  },
+  "label_iconOnlyMode_alert_title": {
+    "message": "وضع الأيقونة فقط",
+    "description": "عنوان تنبيه وضع الأيقونة فقط"
+  },
+  "label_iconOnlyMode_alert_message": {
+    "message": "الشارة على الصفحة مخفية. يتم عرض الأيقونة المخصصة فقط.",
+    "description": "رسالة تنبيه وضع الأيقونة فقط"
+  },
+
+  "label_iconStyle_none": {
+    "message": "بدون",
+    "description": "خيار نمط الأيقونة - بدون"
+  },
+  "label_iconStyle_badge": {
+    "message": "استخدام نمط الشارة",
+    "description": "خيار نمط الأيقونة - شارة"
+  },
+
+  "label_collapseButton_less": {
+    "message": "أقل",
+    "description": "زر طي - عرض أقل"
+  },
+  "label_collapseButton_more": {
+    "message": "المزيد",
+    "description": "زر توسيع - عرض المزيد"
+  },
+
+  "rules_addRule": {
+    "message": "إضافة قاعدة",
+    "description": "زر إضافة القاعدة"
+  },
+  "rules_placeholder_regexp": {
+    "message": "نمط التعبير النمطي (مثال: /article/.*)",
+    "description": "عنصر نائب لإدخال التعبير النمطي"
+  },
+  "rules_placeholder_fullUrl": {
+    "message": "الرابط أو جزء منه (بدون البروتوكول)",
+    "description": "عنصر نائب لإدخال الرابط الكامل"
+  },
+  "rules_placeholder_hostname": {
+    "message": "النطاق أو جزء منه (بدون البروتوكول)",
+    "description": "عنصر نائب لإدخال النطاق"
+  },
+  "rules_validation_empty": {
+    "message": "لا يمكن أن تكون قيمة القاعدة فارغة",
+    "description": "خطأ التحقق من القاعدة الفارغة"
+  },
+  "rules_validation_invalidRegexp": {
+    "message": "نمط التعبير النمطي غير صالح",
+    "description": "خطأ التحقق من التعبير النمطي غير الصالح"
+  },
+
+  "ruleType_contains": {
+    "message": "يحتوي على",
+    "description": "نوع القاعدة - يحتوي على"
+  },
+  "ruleType_startsWith": {
+    "message": "يبدأ بـ",
+    "description": "نوع القاعدة - يبدأ بـ"
+  },
+  "ruleType_endsWith": {
+    "message": "ينتهي بـ",
+    "description": "نوع القاعدة - ينتهي بـ"
+  },
+  "ruleType_matches": {
+    "message": "مطابق لـ",
+    "description": "نوع القاعدة - مطابق لـ"
+  },
+  "ruleType_regexp": {
+    "message": "يطابق التعبير النمطي",
+    "description": "نوع القاعدة - تعبير نمطي"
+  },
+
+  "sourceType_hostname": {
+    "message": "النطاق",
+    "description": "نوع المصدر - النطاق"
+  },
+  "sourceType_fullUrl": {
+    "message": "الرابط الكامل",
+    "description": "نوع المصدر - الرابط الكامل"
+  },
+
+  "labelList_addLabel": {
+    "message": "إضافة تسمية",
+    "description": "زر إضافة التسمية"
+  },
+  "labelList_newLabel": {
+    "message": "تسمية جديدة",
+    "description": "عنوان نافذة التسمية الجديدة"
+  },
+  "labelList_deleteLabels": {
+    "message": "حذف التسميات",
+    "description": "عنوان نافذة حذف التسميات"
+  },
+  "labelList_deleteLabel": {
+    "message": "حذف التسمية",
+    "description": "عنوان نافذة حذف تسمية واحدة"
+  },
+  "labelList_deleteConfirm_multiple": {
+    "message": "هل أنت متأكد أنك تريد حذف $1 تسمية/تسميات محددة؟",
+    "description": "تأكيد حذف عدة تسميات، $1=العدد"
+  },
+  "labelList_deleteConfirm_single": {
+    "message": "هل أنت متأكد أنك تريد حذف التسمية \"$1\"؟",
+    "description": "تأكيد حذف تسمية واحدة، $1=اسم التسمية"
+  },
+  "labelList_combine": {
+    "message": "دمج",
+    "description": "زر الدمج"
+  },
+  "labelList_combineTitle": {
+    "message": "دمج التسميات المحددة في",
+    "description": "عنوان نافذة الدمج"
+  },
+
+  "labelList_header_name": {
+    "message": "اسم التسمية",
+    "description": "رأس الجدول - الاسم"
+  },
+  "labelList_header_rules": {
+    "message": "القواعد",
+    "description": "رأس الجدول - القواعد"
+  },
+  "labelList_header_settings": {
+    "message": "الإعدادات",
+    "description": "رأس الجدول - الإعدادات"
+  },
+  "labelList_header_actions": {
+    "message": "الإجراءات",
+    "description": "رأس الجدول - الإجراءات"
+  },
+  "labelList_empty": {
+    "message": "لا توجد تسميات",
+    "description": "رسالة الحالة الفارغة"
+  },
+  "labelList_tooltip_reorder": {
+    "message": "اسحب العناصر لإعادة الترتيب. يتم فحص التسميات من الأعلى إلى الأسفل؛ تُعرض أول مطابقة",
+    "description": "تلميح إعادة الترتيب"
+  },
+
+  "labelSettings_badge": {
+    "message": "الشارة",
+    "description": "زر/عنوان نافذة الشارة"
+  },
+  "labelSettings_badge_iconOnly": {
+    "message": "الشارة (وضع الأيقونة فقط)",
+    "description": "عنوان نافذة الشارة في وضع الأيقونة فقط"
+  },
+  "labelSettings_icon": {
+    "message": "الأيقونة",
+    "description": "زر/عنوان نافذة الأيقونة"
+  },
+  "labelSettings_rules": {
+    "message": "القواعد",
+    "description": "زر/عنوان نافذة القواعد"
+  },
+  "labelSettings_rules_tooltip": {
+    "message": "تُعرض التسمية عند مطابقة أي قاعدة واحدة (منطق OR بين الصفوف)",
+    "description": "تلميح القواعد"
+  },
+
+  "labelSettings_experimental": {
+    "message": "تجريبي",
+    "description": "شارة الميزة التجريبية"
+  },
+  "labelSettings_experimental_message": {
+    "message": "هذه الميزة تجريبية وقد لا تعمل كما هو متوقع. إذا واجهت أي مشكلات أو كان لديك اقتراحات، يرجى إبلاغ المطور.",
+    "description": "رسالة الميزة التجريبية"
+  },
+  "labelSettings_experimental_enjoy": {
+    "message": "وإذا كنت تستمتع بالفعل باستخدامها — أخبره بذلك أيضاً، فقد يُسعده ذلك 😊🙏!",
+    "description": "رسالة الاستمتاع بالميزة التجريبية"
+  },
+
+  "combineModal_selectTarget": {
+    "message": "اختر التسمية الهدف",
+    "description": "عنصر نائب لاختيار التسمية الهدف"
+  },
+  "combineModal_explanation": {
+    "message": "ستُنقل جميع القواعد من التسميات المحددة إلى التسمية الهدف. ستُحذف التسميات المحددة الأخرى.",
+    "description": "شرح الدمج"
+  },
+  "combineModal_confirmQuestion": {
+    "message": "هل أنت متأكد أنك تريد المتابعة؟",
+    "description": "سؤال تأكيد الدمج"
+  },
+
+  "confirmationModal_defaultMessage": {
+    "message": "هل أنت متأكد؟",
+    "description": "رسالة التأكيد الافتراضية"
+  },
+
+  "positionControl_tooltip": {
+    "message": "ضع التسمية في الموضع $1",
+    "description": "تلميح التحكم في الموضع، $1=اسم الموضع"
+  },
+
+  "export_selected": {
+    "message": "تصدير المحدد",
+    "description": "زر تصدير المحدد"
+  },
+  "export_all": {
+    "message": "تصدير التسميات",
+    "description": "زر تصدير الكل"
+  },
+
+  "import_title": {
+    "message": "استيراد التسميات",
+    "description": "عنوان نافذة الاستيراد"
+  },
+  "import_button": {
+    "message": "استيراد التسميات",
+    "description": "زر الاستيراد"
+  },
+  "import_fromFile": {
+    "message": "من ملف",
+    "description": "عنصر قائمة الاستيراد من ملف"
+  },
+  "import_fromUrl": {
+    "message": "من رابط",
+    "description": "عنصر قائمة الاستيراد من رابط"
+  },
+  "import_fromExtension": {
+    "message": "من إضافة أخرى",
+    "description": "عنصر قائمة الاستيراد من إضافة"
+  },
+
+  "importTab_fromFile": {
+    "message": "من ملف",
+    "description": "علامة تبويب من ملف"
+  },
+  "importTab_fromUrl": {
+    "message": "من رابط",
+    "description": "علامة تبويب من رابط"
+  },
+  "importTab_fromExtension": {
+    "message": "من إضافة أخرى",
+    "description": "علامة تبويب من إضافة"
+  },
+
+  "importFromFile_dropzone": {
+    "message": "اسحب الملف هنا أو انقر للاختيار",
+    "description": "نص منطقة السحب والإفلات"
+  },
+  "importFromFile_dropzone_description": {
+    "message": "استخدم ملف الإعداد المُصدَّر بتنسيق JSON",
+    "description": "وصف منطقة السحب والإفلات"
+  },
+  "importFromFile_error_title": {
+    "message": "فشل في قراءة الملف",
+    "description": "عنوان خطأ قراءة الملف"
+  },
+
+  "importFromUrl_label": {
+    "message": "الرابط",
+    "description": "تسمية إدخال الرابط"
+  },
+  "importFromUrl_description": {
+    "message": "رابط لملف JSON يحتوي على إعدادات التسميات",
+    "description": "وصف إدخال الرابط"
+  },
+  "importFromUrl_placeholder": {
+    "message": "https://example.com/labels.json",
+    "description": "عنصر نائب إدخال الرابط"
+  },
+  "importFromUrl_clearInput": {
+    "message": "مسح الإدخال",
+    "description": "تسمية aria لمسح الإدخال"
+  },
+  "importFromUrl_autoSync": {
+    "message": "المزامنة التلقائية",
+    "description": "تسمية المزامنة التلقائية"
+  },
+  "importFromUrl_autoSync_description": {
+    "message": "تحديث التسميات تلقائياً من الرابط بالتكرار المحدد",
+    "description": "وصف المزامنة التلقائية"
+  },
+  "importFromUrl_lastSynced": {
+    "message": "آخر مزامنة: $1",
+    "description": "نص آخر مزامنة، $1=الوقت"
+  },
+  "importFromUrl_syncNow": {
+    "message": "مزامنة الآن",
+    "description": "زر المزامنة الآن"
+  },
+  "importFromUrl_saveSettings": {
+    "message": "حفظ الإعدادات",
+    "description": "زر حفظ الإعدادات"
+  },
+
+  "importFromUrl_cloudService_generic": {
+    "message": "رابط لملف JSON",
+    "description": "تلميح الخدمة السحابية العامة"
+  },
+  "importFromUrl_cloudService_detected": {
+    "message": "تم اكتشاف رابط $1. سيتم تحويله إلى رابط تنزيل مباشر.",
+    "description": "تلميح اكتشاف الخدمة السحابية، $1=اسم الخدمة"
+  },
+  "importFromUrl_cloudService_direct": {
+    "message": "تم اكتشاف رابط تنزيل مباشر من $1.",
+    "description": "تلميح رابط التنزيل المباشر، $1=اسم الخدمة"
+  },
+
+  "importFromUrl_permissionRequired": {
+    "message": "إذن مطلوب",
+    "description": "عنوان تنبيه الإذن المطلوب"
+  },
+  "importFromUrl_syncFailed": {
+    "message": "فشلت المزامنة",
+    "description": "عنوان تنبيه فشل المزامنة"
+  },
+
+  "cloudService_googleDrive": {
+    "message": "Google Drive",
+    "description": "اسم Google Drive"
+  },
+  "cloudService_oneDrive": {
+    "message": "OneDrive",
+    "description": "اسم OneDrive"
+  },
+  "cloudService_dropbox": {
+    "message": "Dropbox",
+    "description": "اسم Dropbox"
+  },
+
+  "importFromExtension_alert_title": {
+    "message": "تساعدك هذه الميزة على نقل التسميات الموجودة من إضافات أخرى.",
+    "description": "عنوان تنبيه الاستيراد من إضافة"
+  },
+  "importFromExtension_alert_message": {
+    "message": "نحترم عمل مطوري الإضافات الآخرين ونوفر هذا الخيار فقط لراحة المستخدمين الراغبين في تجربة WebLabeler.",
+    "description": "رسالة تنبيه الاستيراد من إضافة"
+  },
+  "importFromExtension_selectLabel": {
+    "message": "الاستيراد من",
+    "description": "تسمية اختيار الاستيراد"
+  },
+  "importFromExtension_combineMode": {
+    "message": "دمج التسميات ذات الخصائص المتطابقة",
+    "description": "تسمية مفتاح وضع الدمج"
+  },
+  "importFromExtension_combineMode_description": {
+    "message": "ستُدمج التسميات التي لها نفس الاسم واللون وحجم الخط والموضع في تسمية واحدة بقواعد مدموجة. يمكنك أيضاً دمج التسميات يدوياً بعد الاستيراد.",
+    "description": "وصف وضع الدمج"
+  },
+  "importFromExtension_dropzone": {
+    "message": "اسحب الملف هنا أو انقر للاختيار",
+    "description": "نص منطقة سحب استيراد الإضافة"
+  },
+  "importFromExtension_dropzone_description": {
+    "message": "استخدم ملف التسميات المُصدَّر من إضافة Environment Marker بتنسيق JSON",
+    "description": "وصف منطقة سحب استيراد الإضافة"
+  },
+  "importFromExtension_error_title": {
+    "message": "فشل استيراد التسميات",
+    "description": "عنوان خطأ الاستيراد"
+  },
+
+  "importLabels_title_default": {
+    "message": "استيراد التسميات",
+    "description": "عنوان الاستيراد الافتراضي"
+  },
+  "importLabels_title_fromFile": {
+    "message": "استيراد التسميات من ملف",
+    "description": "عنوان الاستيراد من ملف"
+  },
+  "importLabels_title_fromUrl": {
+    "message": "استيراد التسميات من رابط",
+    "description": "عنوان الاستيراد من رابط"
+  },
+  "importLabels_title_fromExtension": {
+    "message": "استيراد التسميات من Environment Marker",
+    "description": "عنوان الاستيراد من إضافة"
+  },
+  "importLabels_prefix_default": {
+    "message": "من المصدر المستورد:",
+    "description": "بادئة رسالة الاستيراد الافتراضية"
+  },
+  "importLabels_prefix_file": {
+    "message": "من الملف:",
+    "description": "بادئة الاستيراد من ملف"
+  },
+  "importLabels_prefix_url": {
+    "message": "من الرابط:",
+    "description": "بادئة الاستيراد من رابط"
+  },
+  "importLabels_prefix_extension": {
+    "message": "من الملف:",
+    "description": "بادئة الاستيراد من إضافة"
+  },
+  "importLabels_prefix_extension_combined": {
+    "message": "من الملف (تم دمج $1 تسمية في $2):",
+    "description": "الاستيراد مع إحصائيات الدمج، $1=العدد الأصلي، $2=العدد بعد الدمج"
+  },
+  "importLabels_message_new": {
+    "message": "سيتم إضافة $1 $2 جديدة",
+    "description": "رسالة التسميات الجديدة، $1=العدد، $2=تسمية/تسميات"
+  },
+  "importLabels_message_updated": {
+    "message": "سيتم تحديث $1 $2 موجودة",
+    "description": "رسالة التسميات المحدَّثة، $1=العدد، $2=تسمية/تسميات"
+  },
+  "importLabels_label_singular": {
+    "message": "تسمية",
+    "description": "التسمية في المفرد"
+  },
+  "importLabels_label_plural": {
+    "message": "تسميات",
+    "description": "التسمية في الجمع"
+  },
+
+  "validation_invalidUrl": {
+    "message": "رابط غير صالح أو المزامنة جارية",
+    "description": "خطأ الرابط غير الصالح"
+  },
+  "validation_permissionDenied": {
+    "message": "الإذن مرفوض",
+    "description": "خطأ رفض الإذن"
+  },
+  "validation_invalidArray": {
+    "message": "الملف لا يحتوي على مصفوفة صالحة",
+    "description": "خطأ المصفوفة غير الصالحة"
+  },
+  "validation_emptyFile": {
+    "message": "الملف فارغ",
+    "description": "خطأ الملف الفارغ"
+  },
+  "validation_invalidItem": {
+    "message": "عنصر غير صالح في الفهرس $1",
+    "description": "خطأ العنصر غير الصالح، $1=الفهرس"
+  },
+  "validation_missingField": {
+    "message": "الحقل المطلوب \"$1\" مفقود في الفهرس $2",
+    "description": "خطأ الحقل المفقود، $1=اسم الحقل، $2=الفهرس"
+  },
+  "validation_invalidLabels": {
+    "message": "الملف لا يحتوي على تسميات صالحة",
+    "description": "خطأ التسميات غير الصالحة"
+  },
+  "validation_invalidLabelsUrl": {
+    "message": "الرابط لا يُعيد مصفوفة تسميات صالحة",
+    "description": "خطأ التسميات غير الصالحة من رابط"
+  },
+  "validation_communicationError": {
+    "message": "خطأ في التواصل مع السكريبت الخلفي",
+    "description": "خطأ التواصل مع السكريبت الخلفي"
+  },
+  "validation_fetchFailed": {
+    "message": "فشل في جلب البيانات",
+    "description": "خطأ فشل الجلب"
+  },
+  "validation_error": {
+    "message": "خطأ في التحقق",
+    "description": "خطأ تحقق عام"
+  },
+  "validation_unknownError": {
+    "message": "خطأ غير معروف",
+    "description": "احتياطي للخطأ غير المعروف"
+  },
+
+  "updateFrequency_disabled": {
+    "message": "معطَّل",
+    "description": "تكرار التحديث - معطَّل"
+  },
+  "updateFrequency_15min": {
+    "message": "كل 15 دقيقة",
+    "description": "تكرار التحديث - 15 دقيقة"
+  },
+  "updateFrequency_30min": {
+    "message": "كل 30 دقيقة",
+    "description": "تكرار التحديث - 30 دقيقة"
+  },
+  "updateFrequency_1hour": {
+    "message": "كل ساعة",
+    "description": "تكرار التحديث - ساعة"
+  },
+  "updateFrequency_6hours": {
+    "message": "كل 6 ساعات",
+    "description": "تكرار التحديث - 6 ساعات"
+  },
+  "updateFrequency_24hours": {
+    "message": "مرة في اليوم",
+    "description": "تكرار التحديث - 24 ساعة"
+  },
+
+  "autoSync_label": {
+    "message": "المزامنة التلقائية",
+    "description": "تسمية المزامنة التلقائية"
+  },
+  "autoSync_syncUrl": {
+    "message": "رابط المزامنة",
+    "description": "عنوان بطاقة رابط المزامنة"
+  },
+  "autoSync_lastPrefix": {
+    "message": "آخر: ",
+    "description": "بادئة آخر مزامنة"
+  },
+  "autoSync_error": {
+    "message": "خطأ",
+    "description": "شارة الخطأ"
+  },
+  "autoSync_syncError": {
+    "message": "خطأ في المزامنة",
+    "description": "عنوان بطاقة خطأ المزامنة"
+  },
+  "autoSync_syncNow": {
+    "message": "مزامنة الآن",
+    "description": "تلميح المزامنة الآن"
+  },
+
+  "relativeTime_justNow": {
+    "message": "الآن",
+    "description": "الوقت النسبي - الآن"
+  },
+  "relativeTime_minutesAgo": {
+    "message": "منذ $1 دقيقة",
+    "description": "الوقت النسبي - دقيقة مضت، $1=العدد"
+  },
+  "relativeTime_minutesAgo_plural": {
+    "message": "منذ $1 دقائق",
+    "description": "الوقت النسبي - دقائق مضت، $1=العدد"
+  },
+  "relativeTime_hoursAgo": {
+    "message": "منذ $1 ساعة",
+    "description": "الوقت النسبي - ساعة مضت، $1=العدد"
+  },
+  "relativeTime_hoursAgo_plural": {
+    "message": "منذ $1 ساعات",
+    "description": "الوقت النسبي - ساعات مضت، $1=العدد"
+  },
+  "relativeTime_daysAgo": {
+    "message": "منذ $1 يوم",
+    "description": "الوقت النسبي - يوم مضى، $1=العدد"
+  },
+  "relativeTime_daysAgo_plural": {
+    "message": "منذ $1 أيام",
+    "description": "الوقت النسبي - أيام مضت، $1=العدد"
+  },
+
+  "footer_helpful": {
+    "message": "هل وجدت هذه الإضافة مفيدة؟",
+    "description": "نص التذييل عن الفائدة"
+  },
+  "footer_rate": {
+    "message": "قيّم هذه الإضافة",
+    "description": "زر التقييم في التذييل"
+  },
+
+  "featureBadge_contactDeveloper": {
+    "message": "تواصل مع المطور",
+    "description": "زر التواصل مع المطور"
+  },
+  "featureBadge_rate": {
+    "message": "قيّم",
+    "description": "زر التقييم"
+  },
+
+  "themeSwitcher_ariaLabel": {
+    "message": "تبديل نظام الألوان",
+    "description": "تسمية aria لمبدّل المظهر"
+  },
+
+  "language_select": {
+    "message": "اختر اللغة",
+    "description": "تسمية قائمة اختيار اللغة"
+  },
+  "language_useBrowser": {
+    "message": "استخدام لغة المتصفح",
+    "description": "خيار استخدام لغة المتصفح"
+  },
+  "languageSelector_ariaLabel": {
+    "message": "اختر اللغة",
+    "description": "تسمية aria لمحدد اللغة"
+  }
+}

@@ -12,6 +12,8 @@ export type SupportedLocale =
   | "pt_PT"
   | "uk"
   | "zh_CN"
+  | "ar"      // Arabic
+  | "he"      // Hebrew
   | "cs"      // Czech
   | "et"      // Estonian
   | "fi"      // Finnish

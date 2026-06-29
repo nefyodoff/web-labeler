@@ -1,6 +1,7 @@
 import { LanguageConfig, SupportedLocale } from "./types.ts"
 
 export const SUPPORTED_LANGUAGES: LanguageConfig[] = [
+  { code: "ar", name: "Arabic", nativeName: "العربية", flag: "SA" },
   { code: "zh_CN", name: "Chinese", nativeName: "简体中文", flag: "CN" },
   { code: "cs", name: "Czech", nativeName: "Čeština", flag: "CZ" },
   { code: "en", name: "English", nativeName: "English", flag: "GB" },
@@ -10,6 +11,7 @@ export const SUPPORTED_LANGUAGES: LanguageConfig[] = [
   { code: "fr", name: "French", nativeName: "Français", flag: "FR" },
   { code: "de", name: "German", nativeName: "Deutsch", flag: "DE" },
   { code: "hi", name: "Hindi", nativeName: "हिन्दी", flag: "IN" },
+  { code: "he", name: "Hebrew", nativeName: "עברית", flag: "IL" },
   { code: "hu", name: "Hungarian", nativeName: "Magyar", flag: "HU" },
   { code: "id", name: "Indonesian", nativeName: "Bahasa Indonesia", flag: "ID" },
   { code: "it", name: "Italian", nativeName: "Italiano", flag: "IT" },
@@ -30,3 +32,5 @@ export const SUPPORTED_LANGUAGES: LanguageConfig[] = [
 ]
 
 export const DEFAULT_LOCALE: SupportedLocale = "en"
+
+export const RTL_LOCALES: SupportedLocale[] = ["ar", "he"]
