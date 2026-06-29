@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Keskkonnasilt & Indikaator",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Märgista oma projekte lihtsalt ja väldi tootmis-, test- ja arenduskeskkondade segamini ajamist",
+    "message": "Väldi tootmisvigasid, märgistades visuaalselt Dev-, Staging- ja tootmiskeskkonnad oma brauseris.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Salvesta",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[nimetu]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Väljas",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Kas oled kindel, et soovid selle reegli kustutada?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nimi",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Sinu vahekaart",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "kolmnurk",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "raam",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "puudub",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "punktiiriga",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Favikooni stiil",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Lehekülje märgis on peidetud. Näidatakse ainult märgistatud favikooni.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Puudub",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Kasuta märgise stiili",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Vähem",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Rohkem",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Lisa reegel",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Vigane regulaaravaldise muster",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Sisaldab",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Vastab regulaaravaldisele",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domeen",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Täielik URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Lisa märgis",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Ühenda valitud märgised üheks",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Märgise nimi",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Lohista üksusi järjestuse muutmiseks. Märgiseid kontrollitakse ülalt alla; kuvatakse esimene sobiv",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Märgis",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Märgis kuvatakse, kui keegi üks reegel sobib (VÕI-loogika ridade vahel)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Katsetuslik",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Ja kui sulle meeldib seda kasutada — anna temale ka sellest teada, see võib tema päeva rõõmsamaks teha 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Vali sihtmärgis",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Kas oled kindel, et soovid jätkata?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Kas oled kindel?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Paiguta märgis asukohta $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Ekspordi valitud",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Ekspordi märgised",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Impordi märgised",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Teisest laiendusest",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Failist",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Teisest laiendusest",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Lohista fail siia või klõpsa valimiseks",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Faili lugemine ebaõnnestus",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Salvesta seaded",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL JSON-failile",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 otseallalaadimise link tuvastatud.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Nõutav luba",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Sünkroonimine ebaõnnestus",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "See funktsioon aitab sul teiste laienduste olemasolevaid märgiseid üle kanda.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Märgiste importimine ebaõnnestus",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Impordi märgised",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "märgist",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Vigane URL või sünkroonimine käimas",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "tundmatu viga",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Välja lülitatud",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Kord päevas",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automaatne sünkroonimine",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sünkrooni kohe",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "just nüüd",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 päeva tagasi",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Kas see laiendus on abiks?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Hinda seda laiendust",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Võta ühendust arendajaga",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Hinda",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Vaheta värviskeem",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Vali keel",
     "description": "Language selector menu label"

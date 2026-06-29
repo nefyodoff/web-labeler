@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Marcador e Indicador de Ambiente",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Etiquete os seus projetos facilmente e evite confundir produção com ambientes de teste ou desenvolvimento",
+    "message": "Evite erros em produção marcando visualmente os ambientes Dev, Staging e Produção no seu navegador.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Guardar",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[sem nome]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Desligado",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Tem a certeza de que pretende eliminar esta regra?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nome",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "O seu separador",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "triângulo",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "moldura",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "nenhum",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "pontilhado",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Estilo do favicon",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "O emblema na página está oculto. Apenas o favicon com emblema é apresentado.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Nenhum",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Usar estilo de emblema",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Menos",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Mais",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Adicionar regra",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Padrão de expressão regular inválido",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Contém",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Corresponde a RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domínio",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "URL completo",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Adicionar etiqueta",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Combinar etiquetas selecionadas em",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Nome da etiqueta",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Arraste os itens para reordenar. As etiquetas são verificadas de cima para baixo; a primeira correspondência é apresentada",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Emblema",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "A etiqueta é apresentada quando qualquer regra corresponde (lógica OU entre linhas)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Experimental",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "E se realmente gostar de a usar, diga-lhe também, isso pode alegrar-lhe o dia 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Selecionar etiqueta de destino",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Tem a certeza de que deseja continuar?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Tem a certeza?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Colocar etiqueta na posição $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Exportar selecionadas",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Exportar etiquetas",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importar etiquetas",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "De outra extensão",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "De ficheiro",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "De outra extensão",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Arraste o ficheiro aqui ou clique para selecionar",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Falha ao ler o ficheiro",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Guardar definições",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL para ficheiro JSON",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Ligação de transferência direta do $1 detetada.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Permissão necessária",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Falha na sincronização",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Esta funcionalidade ajuda-o a migrar as suas etiquetas existentes de outras extensões.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Falha ao importar etiquetas",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importar etiquetas",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "etiquetas",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "URL inválido ou sincronização em curso",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "erro desconhecido",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Desativado",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Uma vez por dia",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Sincronização automática",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sincronizar agora",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "agora mesmo",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "há $1 dias",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Esta extensão é útil para si?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Avalie esta extensão",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Contactar o programador",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Avaliar",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Alternar esquema de cores",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Selecionar idioma",
     "description": "Language selector menu label"

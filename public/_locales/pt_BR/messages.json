@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Marcador e Indicador de Ambiente",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Rotule seus projetos facilmente e evite confundir produção com ambientes de teste ou desenvolvimento",
+    "message": "Evite erros em produção marcando visualmente os ambientes Dev, Staging e Produção no seu navegador.",
     "description": "Extension description"
   },
   "common_save": {

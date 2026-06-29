@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Aplinkos Žymiklis & Indikatorius",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Lengvai pažymėkite savo projektus ir išvenkite painiavos tarp gamybinės, testavimo ar kūrimo aplinkų",
+    "message": "Išvenkite gamybos klaidų vizualiai pažymint Dev, Staging ir gamybos aplinkas savo naršyklėje.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Išsaugoti",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[be pavadinimo]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Išjungta",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Ar tikrai norite ištrinti šią taisyklę?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Pavadinimas",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Jūsų kortelė",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "trikampis",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "rėmas",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "nėra",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "taškinis",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Piktogramos stilius",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Ženklelis puslapyje paslėptas. Rodoma tik pažymėta piktograma.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Nėra",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Naudoti ženklelio stilių",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Mažiau",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Daugiau",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Pridėti taisyklę",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Netinkama reguliarioji išraiška",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Turi",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Atitinka reguliariąją išraišką",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domenas",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Pilnas URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Pridėti žymą",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Sujungti pasirinktas žymas į",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Žymos pavadinimas",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Vilkite elementus, kad pakeistumėte eilės tvarką. Žymos tikrinamos iš viršaus į apačią; rodoma pirmoji atitinkanti",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Ženklelis",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Žyma rodoma, kai atitinka bet kuri taisyklė (OR logika tarp eilučių)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Eksperimentinė",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "O jei iš tikrųjų mėgaujatės ja — taip pat pasakykite jam, tai galėtų pagerinti jo dieną 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Pasirinkite tikslinę žymą",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Ar tikrai norite tęsti?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Ar tikrai?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Patalpinti žymą į $1 poziciją",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Eksportuoti pasirinktas",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Eksportuoti žymas",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importuoti žymas",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Iš kito plėtinio",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Iš failo",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Iš kito plėtinio",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Vilkite failą čia arba spustelėkite, kad pasirinktumėte",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Nepavyko perskaityti failo",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Išsaugoti nustatymus",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL į JSON failą",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Aptikta $1 tiesioginė atsisiuntimo nuoroda.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Reikalingas leidimas",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Nepavyko sinchronizuoti",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Ši funkcija padeda perkelti esamas žymas iš kitų plėtinių.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Nepavyko importuoti žymų",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importuoti žymas",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "žymos",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Netinkamas URL arba vyksta sinchronizavimas",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "nežinoma klaida",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Išjungta",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Kartą per dieną",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automatinis sinchronizavimas",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sinchronizuoti dabar",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "ką tik",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "prieš $1 dienas(-ų)",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Šis plėtinys naudingas?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Įvertinkite šį plėtinį",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Susisiekti su kūrėju",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Įvertinti",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Perjungti spalvų schemą",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Pasirinkti kalbą",
     "description": "Language selector menu label"

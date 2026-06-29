@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Marcator & Indicator de Mediu",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Etichetează-ți proiectele cu ușurință și evită confuzia dintre mediile de producție, testare și dezvoltare",
+    "message": "Preveniți erorile de producție marcând vizual mediile Dev, Staging și Production în browserul dvs.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Salvează",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[fără nume]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Oprit",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Ești sigur că vrei să ștergi această regulă?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nume",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Fila Ta",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "triunghi",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "cadru",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "fără",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "punctat",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Stilizare Favicon",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Insigna de pe pagină este ascunsă. Se afișează doar favicon-ul cu insignă.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Fără",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Folosește stil insignă",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Mai puțin",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Mai mult",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Adaugă Regulă",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Pattern de expresie regulată invalid",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Conține",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Corespunde RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domeniu",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "URL Complet",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Adaugă Etichetă",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Combină Etichetele Selectate În",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Nume Etichetă",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Trage elementele pentru a le reordona. Etichetele sunt verificate de sus în jos; prima potrivire este afișată",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Insignă",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Eticheta este afișată când oricare regulă corespunde (logică SAU între rânduri)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Experimental",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Și dacă te bucuri să o folosești — spune-i și lui, ar putea să îi facă ziua mai frumoasă 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Selectează eticheta țintă",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Ești sigur că vrei să continui?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Ești sigur?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Plasează eticheta în poziția $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Exportă Selecția",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Exportă Etichete",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importă Etichete",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Din Altă Extensie",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Din Fișier",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Din Altă Extensie",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Trage fișierul aici sau dă click pentru a selecta",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Eroare la citirea fișierului",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Salvează Setările",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL către fișier JSON",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Link de descărcare directă $1 detectat.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Permisiune Necesară",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Sincronizare eșuată",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Această funcționalitate te ajută să migrezi etichetele existente din alte extensii.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Eroare la importarea etichetelor",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importă etichete",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "etichete",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "URL invalid sau sincronizare în curs",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "eroare necunoscută",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Dezactivat",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "O dată pe zi",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Sincronizare Automată",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sincronizează acum",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "chiar acum",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "acum $1 zile",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Găsești această extensie utilă?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Evaluează această extensie",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Contactează Dezvoltatorul",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Evaluează",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Comută schema de culori",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Selectează Limba",
     "description": "Language selector menu label"

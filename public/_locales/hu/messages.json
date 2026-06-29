@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Környezet Jelölő & Indikátor",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Címkézze projektjeit egyszerűen, és kerülje el a termelési, tesztelési vagy fejlesztői környezetek összekeverését",
+    "message": "Kerülje el a termelési hibákat a Dev, Staging és Production környezetek vizuális megjelölésével a böngészőjében.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Mentés",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[névtelen]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Ki",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Biztosan törli ezt a szabályt?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Név",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Az Ön Lapja",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "háromszög",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "keret",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "nincs",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "pontozott",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Favicon Stílus",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Az oldali jelvény rejtett. Csak a jelvénnyel ellátott favicon látható.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Nincs",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Jelvény stílus használata",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Kevesebb",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Több",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Szabály Hozzáadása",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Érvénytelen reguláris kifejezés minta",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Tartalmazza",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "RegExp Illeszkedés",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domain",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Teljes URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Címke Hozzáadása",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Kiválasztott Címkék Egyesítése",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Címke Neve",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Húzza az elemeket az átrendezéshez. A címkék felülről lefelé kerülnek ellenőrzésre; az első egyezés jelenik meg",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Jelvény",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "A címke megjelenik, ha bármelyik szabály illeszkedik (VAGY logika a sorok között)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Kísérleti",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "És ha tényleg élvezi a használatát — kérjük, mondja el neki ezt is, talán feldobja a napját 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Válassza ki a célcímkét",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Biztosan folytatja?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Biztos benne?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Címke elhelyezése $1 pozícióba",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Kiválasztottak Exportálása",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Címkék Exportálása",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Címkék Importálása",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Másik Bővítményből",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Fájlból",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Másik Bővítményből",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Húzza ide a fájlt, vagy kattintson a kiválasztáshoz",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Fájl olvasása sikertelen",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Beállítások Mentése",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL JSON fájlhoz",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 közvetlen letöltési link észlelve.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Engedély Szükséges",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Szinkronizálás sikertelen",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Ez a funkció segít áttelepíteni meglévő címkéit más bővítményekből.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Címkék importálása sikertelen",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Címkék importálása",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "címke",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Érvénytelen URL vagy szinkronizálás folyamatban",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "ismeretlen hiba",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Letiltva",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Naponta egyszer",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automatikus Szinkronizálás",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Szinkronizálás most",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "most",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 napja",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Hasznosnak találja ezt a bővítményt?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Értékelje ezt a bővítményt",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Kapcsolat a Fejlesztővel",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Értékelés",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Színséma váltása",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Nyelv Kiválasztása",
     "description": "Language selector menu label"

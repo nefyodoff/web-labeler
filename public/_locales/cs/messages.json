@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Označení & Indikátor Prostředí",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Označujte své projekty snadno a vyhněte se záměně produkčního prostředí s testovacím nebo vývojovým",
+    "message": "Předcházejte chybám v produkci vizuálním označením prostředí Dev, Staging a Production ve svém prohlížeči.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Uložit",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[bez názvu]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Vypnuto",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Opravdu chcete smazat toto pravidlo?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Název",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Vaše karta",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "trojúhelník",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "rám",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "žádný",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "tečkovaný",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Styl ikony",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Odznak na stránce je skrytý. Zobrazuje se pouze ikona s odznakem.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Žádný",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Použít styl odznaku",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Méně",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Více",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Přidat pravidlo",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Neplatný vzor regulárního výrazu",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Obsahuje",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Odpovídá RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Doména",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Celá URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Přidat štítek",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Sloučit vybrané štítky do",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Název štítku",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Přetažením změníte pořadí. Štítky se kontrolují shora dolů; zobrazí se první shoda",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Odznak",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Štítek se zobrazí, když odpovídá kterékoli pravidlo (logika NEBO mezi řádky)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Experimentální",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "A pokud vám to vlastně vyhovuje — řekněte mu to také, mohlo by mu to udělat radost 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Vyberte cílový štítek",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Opravdu chcete pokračovat?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Jste si jisti?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Umístit štítek na pozici $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Exportovat vybrané",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Exportovat štítky",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importovat štítky",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Z jiného rozšíření",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Ze souboru",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Z jiného rozšíření",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Přetáhněte soubor sem nebo klikněte pro výběr",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Nepodařilo se načíst soubor",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Uložit nastavení",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL k souboru JSON",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Zjištěn přímý odkaz ke stažení $1.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Vyžadováno oprávnění",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Nepodařilo se synchronizovat",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Tato funkce vám pomůže migrovat existující štítky z jiných rozšíření.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Nepodařilo se importovat štítky",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importovat štítky",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "štítky",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Neplatná URL nebo probíhá synchronizace",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "neznámá chyba",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Vypnuto",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Jednou denně",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automatická synchronizace",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Synchronizovat nyní",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "právě teď",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "před $1 dny",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Považujete toto rozšíření za užitečné?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Ohodnoťte toto rozšíření",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Kontaktovat vývojáře",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Ohodnotit",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Přepnout barevné schéma",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Vybrat jazyk",
     "description": "Language selector menu label"

@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: علامة ومؤشر بيئات التطوير",
     "description": "اسم التطبيق"
   },
   "appDescription": {
-    "message": "صنّف مشاريعك بسهولة وتجنّب الخلط بين بيئات الإنتاج والاختبار والتطوير",
+    "message": "تجنّب أخطاء الإنتاج عن طريق وضع علامات مرئية على بيئات Dev و Staging و Production في متصفحك.",
     "description": "وصف الإضافة"
   },
-
   "common_save": {
     "message": "حفظ",
     "description": "زر الحفظ"
@@ -28,7 +27,6 @@
     "message": "[بدون اسم]",
     "description": "عنصر نائب للعناصر غير المسماة"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "عنوان صفحة الخيارات"
@@ -41,7 +39,6 @@
     "message": "إيقاف",
     "description": "تسمية مفتاح الإيقاف"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "عنوان النافذة المنبثقة"
@@ -114,7 +111,6 @@
     "message": "هل أنت متأكد أنك تريد حذف هذه القاعدة؟",
     "description": "رسالة تأكيد حذف القاعدة"
   },
-
   "label_name": {
     "message": "الاسم",
     "description": "حقل اسم التسمية"
@@ -191,7 +187,6 @@
     "message": "علامة التبويب",
     "description": "عنوان علامة تبويب المعاينة"
   },
-
   "label_shape_triangle": {
     "message": "مثلث",
     "description": "شكل مثلث"
@@ -208,7 +203,6 @@
     "message": "إطار",
     "description": "شكل إطار"
   },
-
   "label_border_none": {
     "message": "بدون",
     "description": "بدون حدود"
@@ -225,7 +219,6 @@
     "message": "منقط",
     "description": "حدود منقطة"
   },
-
   "label_faviconStyling": {
     "message": "تنسيق الأيقونة",
     "description": "تسمية تنسيق الأيقونة"
@@ -246,7 +239,6 @@
     "message": "الشارة على الصفحة مخفية. يتم عرض الأيقونة المخصصة فقط.",
     "description": "رسالة تنبيه وضع الأيقونة فقط"
   },
-
   "label_iconStyle_none": {
     "message": "بدون",
     "description": "خيار نمط الأيقونة - بدون"
@@ -255,7 +247,6 @@
     "message": "استخدام نمط الشارة",
     "description": "خيار نمط الأيقونة - شارة"
   },
-
   "label_collapseButton_less": {
     "message": "أقل",
     "description": "زر طي - عرض أقل"
@@ -264,7 +255,6 @@
     "message": "المزيد",
     "description": "زر توسيع - عرض المزيد"
   },
-
   "rules_addRule": {
     "message": "إضافة قاعدة",
     "description": "زر إضافة القاعدة"
@@ -289,7 +279,6 @@
     "message": "نمط التعبير النمطي غير صالح",
     "description": "خطأ التحقق من التعبير النمطي غير الصالح"
   },
-
   "ruleType_contains": {
     "message": "يحتوي على",
     "description": "نوع القاعدة - يحتوي على"
@@ -310,7 +299,6 @@
     "message": "يطابق التعبير النمطي",
     "description": "نوع القاعدة - تعبير نمطي"
   },
-
   "sourceType_hostname": {
     "message": "النطاق",
     "description": "نوع المصدر - النطاق"
@@ -319,7 +307,6 @@
     "message": "الرابط الكامل",
     "description": "نوع المصدر - الرابط الكامل"
   },
-
   "labelList_addLabel": {
     "message": "إضافة تسمية",
     "description": "زر إضافة التسمية"
@@ -352,7 +339,6 @@
     "message": "دمج التسميات المحددة في",
     "description": "عنوان نافذة الدمج"
   },
-
   "labelList_header_name": {
     "message": "اسم التسمية",
     "description": "رأس الجدول - الاسم"
@@ -377,7 +363,6 @@
     "message": "اسحب العناصر لإعادة الترتيب. يتم فحص التسميات من الأعلى إلى الأسفل؛ تُعرض أول مطابقة",
     "description": "تلميح إعادة الترتيب"
   },
-
   "labelSettings_badge": {
     "message": "الشارة",
     "description": "زر/عنوان نافذة الشارة"
@@ -398,7 +383,6 @@
     "message": "تُعرض التسمية عند مطابقة أي قاعدة واحدة (منطق OR بين الصفوف)",
     "description": "تلميح القواعد"
   },
-
   "labelSettings_experimental": {
     "message": "تجريبي",
     "description": "شارة الميزة التجريبية"
@@ -411,7 +395,6 @@
     "message": "وإذا كنت تستمتع بالفعل باستخدامها — أخبره بذلك أيضاً، فقد يُسعده ذلك 😊🙏!",
     "description": "رسالة الاستمتاع بالميزة التجريبية"
   },
-
   "combineModal_selectTarget": {
     "message": "اختر التسمية الهدف",
     "description": "عنصر نائب لاختيار التسمية الهدف"
@@ -424,17 +407,14 @@
     "message": "هل أنت متأكد أنك تريد المتابعة؟",
     "description": "سؤال تأكيد الدمج"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "هل أنت متأكد؟",
     "description": "رسالة التأكيد الافتراضية"
   },
-
   "positionControl_tooltip": {
     "message": "ضع التسمية في الموضع $1",
     "description": "تلميح التحكم في الموضع، $1=اسم الموضع"
   },
-
   "export_selected": {
     "message": "تصدير المحدد",
     "description": "زر تصدير المحدد"
@@ -443,7 +423,6 @@
     "message": "تصدير التسميات",
     "description": "زر تصدير الكل"
   },
-
   "import_title": {
     "message": "استيراد التسميات",
     "description": "عنوان نافذة الاستيراد"
@@ -464,7 +443,6 @@
     "message": "من إضافة أخرى",
     "description": "عنصر قائمة الاستيراد من إضافة"
   },
-
   "importTab_fromFile": {
     "message": "من ملف",
     "description": "علامة تبويب من ملف"
@@ -477,7 +455,6 @@
     "message": "من إضافة أخرى",
     "description": "علامة تبويب من إضافة"
   },
-
   "importFromFile_dropzone": {
     "message": "اسحب الملف هنا أو انقر للاختيار",
     "description": "نص منطقة السحب والإفلات"
@@ -490,7 +467,6 @@
     "message": "فشل في قراءة الملف",
     "description": "عنوان خطأ قراءة الملف"
   },
-
   "importFromUrl_label": {
     "message": "الرابط",
     "description": "تسمية إدخال الرابط"
@@ -527,7 +503,6 @@
     "message": "حفظ الإعدادات",
     "description": "زر حفظ الإعدادات"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "رابط لملف JSON",
     "description": "تلميح الخدمة السحابية العامة"
@@ -540,7 +515,6 @@
     "message": "تم اكتشاف رابط تنزيل مباشر من $1.",
     "description": "تلميح رابط التنزيل المباشر، $1=اسم الخدمة"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "إذن مطلوب",
     "description": "عنوان تنبيه الإذن المطلوب"
@@ -549,7 +523,6 @@
     "message": "فشلت المزامنة",
     "description": "عنوان تنبيه فشل المزامنة"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "اسم Google Drive"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "اسم Dropbox"
   },
-
   "importFromExtension_alert_title": {
     "message": "تساعدك هذه الميزة على نقل التسميات الموجودة من إضافات أخرى.",
     "description": "عنوان تنبيه الاستيراد من إضافة"
@@ -595,7 +567,6 @@
     "message": "فشل استيراد التسميات",
     "description": "عنوان خطأ الاستيراد"
   },
-
   "importLabels_title_default": {
     "message": "استيراد التسميات",
     "description": "عنوان الاستيراد الافتراضي"
@@ -648,7 +619,6 @@
     "message": "تسميات",
     "description": "التسمية في الجمع"
   },
-
   "validation_invalidUrl": {
     "message": "رابط غير صالح أو المزامنة جارية",
     "description": "خطأ الرابط غير الصالح"
@@ -697,7 +667,6 @@
     "message": "خطأ غير معروف",
     "description": "احتياطي للخطأ غير المعروف"
   },
-
   "updateFrequency_disabled": {
     "message": "معطَّل",
     "description": "تكرار التحديث - معطَّل"
@@ -722,7 +691,6 @@
     "message": "مرة في اليوم",
     "description": "تكرار التحديث - 24 ساعة"
   },
-
   "autoSync_label": {
     "message": "المزامنة التلقائية",
     "description": "تسمية المزامنة التلقائية"
@@ -747,7 +715,6 @@
     "message": "مزامنة الآن",
     "description": "تلميح المزامنة الآن"
   },
-
   "relativeTime_justNow": {
     "message": "الآن",
     "description": "الوقت النسبي - الآن"
@@ -776,7 +743,6 @@
     "message": "منذ $1 أيام",
     "description": "الوقت النسبي - أيام مضت، $1=العدد"
   },
-
   "footer_helpful": {
     "message": "هل وجدت هذه الإضافة مفيدة؟",
     "description": "نص التذييل عن الفائدة"
@@ -785,7 +751,6 @@
     "message": "قيّم هذه الإضافة",
     "description": "زر التقييم في التذييل"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "تواصل مع المطور",
     "description": "زر التواصل مع المطور"
@@ -794,12 +759,10 @@
     "message": "قيّم",
     "description": "زر التقييم"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "تبديل نظام الألوان",
     "description": "تسمية aria لمبدّل المظهر"
   },
-
   "language_select": {
     "message": "اختر اللغة",
     "description": "تسمية قائمة اختيار اللغة"

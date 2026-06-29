@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: 环境标记与指示工具",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "轻松标记您的项目，避免生产环境和测试或开发环境之间的混淆",
+    "message": "通过在浏览器中直观标记 Dev、Staging 和 Production 环境，防止生产环境误操作。",
     "description": "Extension description"
   },
   "common_save": {

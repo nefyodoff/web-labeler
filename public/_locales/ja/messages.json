@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: 環境マーカー & インジケーター",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "プロジェクトに簡単にラベルを付けて、本番環境とテスト環境や開発環境を混同しないようにします",
+    "message": "ブラウザでDev・Staging・本番環境を視覚的にマークして、本番ミスを防ぎましょう。",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "保存",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[無名]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "オフ",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "このルールを削除してもよろしいですか？",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "名前",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "あなたのタブ",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "三角形",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "フレーム",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "なし",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "点線",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "ファビコンスタイル",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "ページ上のバッジは非表示になっています。バッジ付きファビコンのみが表示されます。",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "なし",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "バッジスタイルを使用",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "簡易表示",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "詳細表示",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "ルールを追加",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "無効な正規表現パターンです",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "含む",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "正規表現に一致",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "ドメイン",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "完全なURL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "ラベルを追加",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "選択されたラベルを結合",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "ラベル名",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "アイテムをドラッグして並べ替えます。ラベルは上から順にチェックされ、最初に一致したものが表示されます",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "バッジ",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "いずれか1つのルールが一致した場合にラベルが表示されます（行間はOR論理）",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "実験的機能",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "そして、もし実際に使ってみて気に入った場合は、開発者にそれも伝えてください。きっと喜びます😊🙏！",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "ターゲットラベルを選択",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "続行してもよろしいですか？",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "よろしいですか？",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "ラベルを$1の位置に配置",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "選択項目をエクスポート",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "ラベルをエクスポート",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "ラベルをインポート",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "他の拡張機能から",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "ファイルから",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "他の拡張機能から",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "ファイルをここにドラッグするか、クリックして選択",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "ファイルの読み取りに失敗しました",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "設定を保存",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "JSONファイルへのURL",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1の直接ダウンロードリンクが検出されました。",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "権限が必要です",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "同期に失敗しました",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google ドライブ",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "この機能は、他の拡張機能から既存のラベルを移行するのに役立ちます。",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "ラベルのインポートに失敗しました",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "ラベルをインポート",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "ラベル",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "無効なURLまたは同期中です",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "不明なエラー",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "無効",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "1日1回",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "自動同期",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "今すぐ同期",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "たった今",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1日前",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "この拡張機能は役に立ちましたか？",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "この拡張機能を評価",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "開発者に連絡",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "評価",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "カラースキームを切り替え",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "言語を選択",
     "description": "Language selector menu label"

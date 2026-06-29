@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Environment Marker & Indicator",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Lagyan ng label ang iyong mga proyekto nang madali at iwasan ang pagkalito sa pagitan ng production, test, o development environments",
+    "message": "Iwasan ang mga pagkakamali sa production sa pamamagitan ng visual na pagmamarka ng Dev, Staging, at Production na kapaligiran sa iyong browser.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "I-save",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[walang pangalan]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Sarado",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Sigurado ka bang gusto mong burahin ang patakarang ito?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Pangalan",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Ang Iyong Tab",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "tatsulok",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "frame",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "wala",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "dotted",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Pag-eestilo ng Favicon",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Ang badge sa page ay nakatago. Ang badged favicon lang ang ipinakikita.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Wala",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Gumamit ng badge style",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Mas Kaunti",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Higit Pa",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Magdagdag ng Patakaran",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Hindi wastong regular expression pattern",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Naglalaman",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Tumutugma sa RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domain",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Buong URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Magdagdag ng Label",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Pagsamahin ang mga Napiling Label Sa",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Pangalan ng Label",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "I-drag ang mga item para ayusin ang pagkakasunod-sunod. Sinusuri ang mga label mula taas pababa; ang unang tumugma ay ipapakita",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Badge",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Ipapakita ang label kapag ang kahit anong patakaran ay tumugma (OR logic sa pagitan ng mga row)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Experimental",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "At kung tunay mong nagustuhan ang paggamit nito — pakisabi rin sa kanya, baka mapasaya mo ang kanyang araw 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Pumili ng target na label",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Sigurado ka bang gusto mong magpatuloy?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Sigurado ka ba?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Ilagay ang label sa $1 na posisyon",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "I-export ang mga Napili",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "I-export ang mga Label",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Mag-import ng mga Label",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Mula sa Ibang Extension",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Mula sa File",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Mula sa Ibang Extension",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "I-drag ang file dito o mag-click para pumili",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Nabigo ang pagbasa ng file",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "I-save ang mga Setting",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL sa JSON file",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 direct download link ay natukoy.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Kailangan ng Pahintulot",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Nabigo ang pag-sync",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Ang feature na ito ay tumutulong sa iyo na ilipat ang iyong mga umiiral na label mula sa ibang mga extension.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Nabigo ang pag-import ng mga label",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Mag-import ng mga label",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "mga label",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Hindi wastong URL o kasalukuyang nag-sync",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "hindi kilalang error",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Naka-disable",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Minsan sa isang araw",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Auto-Sync",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "I-sync ngayon",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "kanina lang",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 araw ang nakalipas",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Nakatulong ba ang extension na ito?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "I-rate Ang Extension Na Ito",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Makipag-ugnayan sa Developer",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "I-rate",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Baguhin ang color scheme",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Pumili ng Wika",
     "description": "Language selector menu label"

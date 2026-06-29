@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Ortam İşaretleyici & Göstergesi",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Projelerinizi kolayca etiketleyin ve üretim ortamını test veya geliştirme ortamlarıyla karıştırmaktan kaçının",
+    "message": "Tarayıcınızda Dev, Staging ve Production ortamlarını görsel olarak işaretleyerek prodüksiyon hatalarını önleyin.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Kaydet",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[isimsiz]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Kapalı",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Bu kuralı silmek istediğinizden emin misiniz?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "İsim",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Sekmeniz",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "üçgen",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "çerçeve",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "yok",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "noktalı",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Favicon Stili",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Sayfa üzerindeki rozet gizli. Yalnızca rozetli favicon gösteriliyor.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Yok",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Rozet stilini kullan",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Daha Az",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Daha Fazla",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Kural Ekle",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Geçersiz düzenli ifade deseni",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "İçerir",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Düzenli İfade ile Eşleşir",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Alan Adı",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Tam URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Etiket Ekle",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Seçilen Etiketleri Şuna Birleştir",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Etiket Adı",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Yeniden sıralamak için öğeleri sürükleyin. Etiketler yukarıdan aşağıya kontrol edilir; ilk eşleşen gösterilir",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Rozet",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Herhangi bir kural eşleştiğinde etiket gösterilir (satırlar arası VEYA mantığı)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Deneysel",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Ve eğer gerçekten kullanmaktan keyif alıyorsanız - lütfen ona da söyleyin, bu onun gününü güzelleştirebilir 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Hedef etiket seçin",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Devam etmek istediğinizden emin misiniz?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Emin misiniz?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Etiketi $1 konumuna yerleştir",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Seçilenleri Dışa Aktar",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Etiketleri Dışa Aktar",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Etiketleri İçe Aktar",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Başka Bir Eklentiden",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Dosyadan",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Başka Bir Eklentiden",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Dosyayı buraya sürükleyin veya seçmek için tıklayın",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Dosya okunamadı",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Ayarları Kaydet",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "JSON dosyasının URL'si",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 doğrudan indirme bağlantısı algılandı.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "İzin Gerekli",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Senkronizasyon başarısız oldu",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Bu özellik, mevcut etiketlerinizi diğer eklentilerden taşımanıza yardımcı olur.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Etiketler içe aktarılamadı",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Etiketleri içe aktar",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "etiket",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Geçersiz URL veya senkronizasyon devam ediyor",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "bilinmeyen hata",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Devre Dışı",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Günde bir kez",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Otomatik Senkronizasyon",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Şimdi senkronize et",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "şimdi",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 gün önce",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Bu eklentiyi faydalı buldunuz mu?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Bu Uzantıyı Değerlendirin",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Geliştiriciyle İletişime Geçin",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Değerlendir",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Renk şemasını değiştir",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Dil Seçin",
     "description": "Language selector menu label"

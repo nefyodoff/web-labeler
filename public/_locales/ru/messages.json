@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Маркер и Индикатор Среды",
     "description": "Название приложения"
   },
   "appDescription": {
-    "message": "Маркируйте свои проекты легко и избегайте путаницы между продакшн, тестовой и разработческой средами",
+    "message": "Предотвращайте ошибки на проде, визуально помечая среды Dev, Staging и Production в браузере.",
     "description": "Описание расширения"
   },
-
   "common_save": {
     "message": "Сохранить",
     "description": "Кнопка сохранения"
@@ -28,7 +27,6 @@
     "message": "[без имени]",
     "description": "Заполнитель для элементов без имени"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Заголовок страницы настроек"
@@ -41,7 +39,6 @@
     "message": "Выкл",
     "description": "Переключатель выключен"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Заголовок всплывающего окна"
@@ -114,7 +111,6 @@
     "message": "Вы уверены, что хотите удалить это правило?",
     "description": "Сообщение подтверждения удаления правила"
   },
-
   "label_name": {
     "message": "Название",
     "description": "Поле названия метки"
@@ -191,7 +187,6 @@
     "message": "Ваша вкладка",
     "description": "Заголовок вкладки предпросмотра"
   },
-
   "label_shape_triangle": {
     "message": "треугольник",
     "description": "Форма треугольник"
@@ -208,7 +203,6 @@
     "message": "рамка",
     "description": "Форма рамка"
   },
-
   "label_border_none": {
     "message": "нет",
     "description": "Без границы"
@@ -225,7 +219,6 @@
     "message": "точки",
     "description": "Точечная граница"
   },
-
   "label_faviconStyling": {
     "message": "Стиль иконки",
     "description": "Метка стиля иконки"
@@ -246,7 +239,6 @@
     "message": "Значок на странице скрыт. Отображается только измененная иконка.",
     "description": "Сообщение уведомления режима только иконки"
   },
-
   "label_iconStyle_none": {
     "message": "Нет",
     "description": "Опция стиля иконки - нет"
@@ -255,7 +247,6 @@
     "message": "Использовать стиль значка",
     "description": "Опция стиля иконки - значок"
   },
-
   "label_collapseButton_less": {
     "message": "Меньше",
     "description": "Кнопка свернуть - показать меньше"
@@ -264,7 +255,6 @@
     "message": "Больше",
     "description": "Кнопка развернуть - показать больше"
   },
-
   "rules_addRule": {
     "message": "Добавить правило",
     "description": "Кнопка добавления правила"
@@ -289,7 +279,6 @@
     "message": "Неверный шаблон регулярного выражения",
     "description": "Ошибка валидации некорректного регулярного выражения"
   },
-
   "ruleType_contains": {
     "message": "Содержит",
     "description": "Тип правила - содержит"
@@ -310,7 +299,6 @@
     "message": "Соответствует RegExp",
     "description": "Тип правила - регулярное выражение"
   },
-
   "sourceType_hostname": {
     "message": "Домен",
     "description": "Тип источника - домен"
@@ -319,7 +307,6 @@
     "message": "Полный URL",
     "description": "Тип источника - полный URL"
   },
-
   "labelList_addLabel": {
     "message": "Добавить метку",
     "description": "Кнопка добавления метки"
@@ -352,7 +339,6 @@
     "message": "Объединить выбранные метки в",
     "description": "Заголовок модального окна объединения"
   },
-
   "labelList_header_name": {
     "message": "Название метки",
     "description": "Заголовок таблицы - название"
@@ -377,7 +363,6 @@
     "message": "Перетаскивайте элементы для изменения порядка. Метки проверяются сверху вниз; показывается первое совпадение",
     "description": "Подсказка о переупорядочивании"
   },
-
   "labelSettings_badge": {
     "message": "Значок",
     "description": "Кнопка/заголовок модального окна значка"
@@ -398,7 +383,6 @@
     "message": "Метка отображается, когда совпадает любое отдельное правило (логика ИЛИ между строками)",
     "description": "Подсказка к правилам"
   },
-
   "labelSettings_experimental": {
     "message": "Экспериментальная",
     "description": "Значок экспериментальной функции"
@@ -411,7 +395,6 @@
     "message": "А если вам действительно нравится использовать это — пожалуйста, скажите ему об этом тоже, это может сделать его день лучше 😊🙏!",
     "description": "Сообщение о положительных впечатлениях от экспериментальной функции"
   },
-
   "combineModal_selectTarget": {
     "message": "Выберите целевую метку",
     "description": "Заполнитель выбора целевой метки"
@@ -424,17 +407,14 @@
     "message": "Вы уверены, что хотите продолжить?",
     "description": "Вопрос подтверждения объединения"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Вы уверены?",
     "description": "Сообщение подтверждения по умолчанию"
   },
-
   "positionControl_tooltip": {
     "message": "Разместить метку в позиции $1",
     "description": "Подсказка управления позицией, $1=название позиции"
   },
-
   "export_selected": {
     "message": "Экспортировать выбранные",
     "description": "Кнопка экспорта выбранных"
@@ -443,7 +423,6 @@
     "message": "Экспортировать метки",
     "description": "Кнопка экспорта всех"
   },
-
   "import_title": {
     "message": "Импорт меток",
     "description": "Заголовок модального окна импорта"
@@ -464,7 +443,6 @@
     "message": "Из другого расширения",
     "description": "Пункт меню импорта из расширения"
   },
-
   "importTab_fromFile": {
     "message": "Из файла",
     "description": "Вкладка из файла"
@@ -477,7 +455,6 @@
     "message": "Из другого расширения",
     "description": "Вкладка из расширения"
   },
-
   "importFromFile_dropzone": {
     "message": "Перетащите файл сюда или нажмите для выбора",
     "description": "Текст зоны перетаскивания файла"
@@ -490,7 +467,6 @@
     "message": "Не удалось прочитать файл",
     "description": "Заголовок ошибки чтения файла"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "Метка ввода URL"
@@ -527,7 +503,6 @@
     "message": "Сохранить настройки",
     "description": "Кнопка сохранения настроек"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL к JSON-файлу",
     "description": "Общая подсказка облачного сервиса"
@@ -540,7 +515,6 @@
     "message": "Обнаружена прямая ссылка для загрузки $1.",
     "description": "Подсказка прямой ссылки загрузки, $1=имя сервиса"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Требуется разрешение",
     "description": "Заголовок уведомления о требуемом разрешении"
@@ -549,7 +523,6 @@
     "message": "Не удалось синхронизировать",
     "description": "Заголовок уведомления об ошибке синхронизации"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Название Google Drive"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Название Dropbox"
   },
-
   "importFromExtension_alert_title": {
     "message": "Эта функция помогает вам перенести существующие метки из других расширений.",
     "description": "Заголовок уведомления импорта из расширения"
@@ -595,7 +567,6 @@
     "message": "Не удалось импортировать метки",
     "description": "Заголовок ошибки импорта"
   },
-
   "importLabels_title_default": {
     "message": "Импорт меток",
     "description": "Заголовок импорта по умолчанию"
@@ -648,7 +619,6 @@
     "message": "меток",
     "description": "Метка во множественном числе"
   },
-
   "validation_invalidUrl": {
     "message": "Неверный URL или выполняется синхронизация",
     "description": "Ошибка неверного URL"
@@ -697,7 +667,6 @@
     "message": "неизвестная ошибка",
     "description": "Запасной вариант для неизвестной ошибки"
   },
-
   "updateFrequency_disabled": {
     "message": "Отключена",
     "description": "Частота обновления - отключена"
@@ -722,7 +691,6 @@
     "message": "Раз в день",
     "description": "Частота обновления - 24 часа"
   },
-
   "autoSync_label": {
     "message": "Автосинхронизация",
     "description": "Метка автосинхронизации"
@@ -747,7 +715,6 @@
     "message": "Синхронизировать сейчас",
     "description": "Подсказка синхронизации сейчас"
   },
-
   "relativeTime_justNow": {
     "message": "только что",
     "description": "Относительное время - только что"
@@ -776,7 +743,6 @@
     "message": "$1 дней назад",
     "description": "Относительное время - дней назад множественное, $1=количество"
   },
-
   "footer_helpful": {
     "message": "Это расширение полезно?",
     "description": "Текст подвала о полезности"
@@ -785,7 +751,6 @@
     "message": "Оцените это расширение",
     "description": "Кнопка оценки в подвале"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Связаться с разработчиком",
     "description": "Кнопка связи с разработчиком"
@@ -794,12 +759,10 @@
     "message": "Оценить",
     "description": "Кнопка оценки"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Переключить цветовую схему",
     "description": "Метка aria переключателя темы"
   },
-
   "language_select": {
     "message": "Выберите язык",
     "description": "Метка меню выбора языка"

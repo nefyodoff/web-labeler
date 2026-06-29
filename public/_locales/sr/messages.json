@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Oznaka & Indikator Okruženja",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Označite svoje projekte lako i izbegnite mešanje produkcije sa test ili razvojnim okruženjima",
+    "message": "Sprečite greške u produkciji vizualnim označavanjem Dev, Staging i Production okruženja u vašem pregledaču.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Sačuvaj",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[bez imena]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Isključeno",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Da li ste sigurni da želite da obrišete ovo pravilo?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Ime",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Vaš tab",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "trougao",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "okvir",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "bez ivice",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "tačkasta",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Stilizovanje ikonice",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Oznaka na stranici je sakrivena. Prikazuje se samo ikonica sa oznakom.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Bez stila",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Koristi stil oznake",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Manje",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Više",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Dodaj pravilo",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Nevažeći regularni izraz",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Sadrži",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Odgovara RegExp-u",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domen",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Pun URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Dodaj oznaku",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Kombinuj odabrane oznake u",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Ime oznake",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Prevucite stavke da biste ih preuredili. Oznake se proveravaju odozgo nadole; prikazuje se prvo poklapanje",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Oznaka",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Oznaka se prikazuje kada bilo koje pojedinačno pravilo odgovara (ILI logika između redova)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Eksperimentalno",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "A ako zaista uživate u korišćenju - javite mu i to, moglo bi mu ulepšati dan 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Izaberite ciljnu oznaku",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Da li ste sigurni da želite da nastavite?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Da li ste sigurni?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Postavi oznaku na $1 poziciju",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Izvezi odabrane",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Izvezi oznake",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Uvezi oznake",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Iz druge ekstenzije",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Iz fajla",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Iz druge ekstenzije",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Prevucite fajl ovde ili kliknite da izaberete",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Neuspelo učitavanje fajla",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Sačuvaj podešavanja",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL do JSON fajla",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 direktan link za preuzimanje detektovan.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Potrebna dozvola",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Sinhronizacija neuspela",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Ova funkcija vam pomaže da migrirate postojeće oznake iz drugih ekstenzija.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Neuspeo uvoz oznaka",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Uvezi oznake",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "oznake",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Nevažeći URL ili sinhronizacija u toku",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "nepoznata greška",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Onemogućeno",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Jednom dnevno",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automatska sinhronizacija",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sinhronizuj sada",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "upravo sada",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "pre $1 dana",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Da li vam je ova ekstenzija korisna?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Ocenite ovu ekstenziju",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Kontaktirajte programera",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Ocenite",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Promena teme boja",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Izaberite jezik",
     "description": "Language selector menu label"

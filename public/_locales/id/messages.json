@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Penanda & Indikator Lingkungan",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Beri label pada proyek Anda dengan mudah dan hindari kebingungan antara lingkungan produksi, pengujian, atau pengembangan",
+    "message": "Cegah kesalahan produksi dengan menandai secara visual lingkungan Dev, Staging, dan Production di browser Anda.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Simpan",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[tanpa nama]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Nonaktif",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Apakah Anda yakin ingin menghapus aturan ini?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nama",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Tab Anda",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "segitiga",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "bingkai",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "tidak ada",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "titik-titik",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Gaya Favicon",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Lencana di halaman disembunyikan. Hanya favicon berlencana yang ditampilkan.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Tidak Ada",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Gunakan gaya lencana",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Lebih Sedikit",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Lebih Banyak",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Tambah Aturan",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Pola ekspresi reguler tidak valid",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Mengandung",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Cocok RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domain",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "URL Lengkap",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Tambah Label",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Gabungkan Label yang Dipilih Ke",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Nama Label",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Seret item untuk mengurutkan ulang. Label diperiksa dari atas ke bawah; kecocokan pertama akan ditampilkan",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Lencana",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Label ditampilkan ketika salah satu aturan cocok (logika OR antar baris)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Eksperimental",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Dan jika Anda benar-benar menikmati menggunakannya — tolong beri tahu dia juga, itu mungkin akan membuat harinya menyenangkan 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Pilih label tujuan",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Apakah Anda yakin ingin melanjutkan?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Apakah Anda yakin?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Tempatkan label ke posisi $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Ekspor yang Dipilih",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Ekspor Label",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Impor Label",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Dari Ekstensi Lain",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Dari File",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Dari Ekstensi Lain",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Seret file ke sini atau klik untuk memilih",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Gagal membaca file",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Simpan Pengaturan",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL ke file JSON",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Tautan unduhan langsung $1 terdeteksi.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Izin Diperlukan",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Gagal menyinkronkan",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Fitur ini membantu Anda memigrasikan label yang ada dari ekstensi lain.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Gagal mengimpor label",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Impor label",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "label",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "URL tidak valid atau sinkronisasi sedang berlangsung",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "kesalahan tidak diketahui",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Dinonaktifkan",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Sekali sehari",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Sinkronisasi Otomatis",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sinkronkan sekarang",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "baru saja",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 hari yang lalu",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Apakah ekstensi ini bermanfaat?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Beri Nilai Ekstensi Ini",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Hubungi Pengembang",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Beri Nilai",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Alihkan skema warna",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Pilih Bahasa",
     "description": "Language selector menu label"

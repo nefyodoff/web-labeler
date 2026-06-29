@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: 환경 마커 & 인디케이터",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "프로젝트에 쉽게 레이블을 지정하고 프로덕션과 테스트 또는 개발 환경 간의 혼동을 피하세요",
+    "message": "브라우저에서 Dev, Staging, Production 환경을 시각적으로 표시하여 운영 실수를 방지하세요.",
     "description": "Extension description"
   },
   "common_save": {

@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Ympäristömerkitsin & Indikaattori",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Merkitse projektisi helposti ja vältä tuotannon sekoittaminen testi- tai kehitysympäristöihin",
+    "message": "Estä tuotantovirheet merkitsemällä Dev-, Staging- ja tuotantoympäristöt visuaalisesti selaimessasi.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Tallenna",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[nimetön]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Pois",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Haluatko varmasti poistaa tämän säännön?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nimi",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Välilehti",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "kolmio",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "kehys",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "ei reunusta",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "pisteviiva",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Faviconin tyyli",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Sivulla oleva merkki on piilotettu. Vain merkattu favicon näytetään.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Ei mitään",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Käytä merkkityyliä",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Vähemmän",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Lisää",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Lisää sääntö",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Virheellinen säännöllinen lauseke",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Sisältää",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Vastaa RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Verkkotunnus",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Koko URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Lisää merkintä",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Yhdistä valitut merkinnät",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Merkinnän nimi",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Vedä kohteita järjestääksesi. Merkintöjä tarkistetaan ylhäältä alas; ensimmäinen osuma näytetään",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Merkki",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Merkintä näytetään kun mikä tahansa yksittäinen sääntö täsmää (TAI-logiikka rivien välillä)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Kokeellinen",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Ja jos nautit sen käytöstä — kerro siitä myös hänelle, se saattaa piristää hänen päiväänsä 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Valitse kohdemerkintä",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Haluatko varmasti jatkaa?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Oletko varma?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Aseta merkintä sijaintiin $1",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Vie valitut",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Vie merkinnät",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Tuo merkintöjä",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Toisesta laajennuksesta",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Tiedostosta",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Toisesta laajennuksesta",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Vedä tiedosto tähän tai napsauta valitaksesi",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Tiedoston lukeminen epäonnistui",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Tallenna asetukset",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL JSON-tiedostoon",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 suora latauslinkki havaittu.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Lupa vaaditaan",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Synkronointi epäonnistui",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Tämä ominaisuus auttaa sinua siirtämään olemassa olevat merkinnät muista laajennuksista.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Merkintöjen tuonti epäonnistui",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Tuo merkintöjä",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "merkintää",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Virheellinen URL tai synkronointi käynnissä",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "tuntematon virhe",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Pois käytöstä",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Kerran päivässä",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automaattinen synkronointi",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Synkronoi nyt",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "juuri nyt",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 päivää sitten",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Pidätkö tästä laajennuksesta?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Arvostele tämä laajennus",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Ota yhteyttä kehittäjään",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Arvostele",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Vaihda väriteemaa",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Valitse kieli",
     "description": "Language selector menu label"

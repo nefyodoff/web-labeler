@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: वातावरण मार्कर और संकेतक",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "अपनी परियोजनाओं को आसानी से लेबल करें और प्रोडक्शन और टेस्ट या विकास वातावरण के बीच भ्रम से बचें",
+    "message": "अपने ब्राउज़र में Dev, Staging और Production वातावरण को विज़ुअली मार्क करके प्रोडक्शन गलतियों से बचें।",
     "description": "Extension description"
   },
   "common_save": {

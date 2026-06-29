@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Umgebungsmarkierung & Indikator",
     "description": "Anwendungsname"
   },
   "appDescription": {
-    "message": "Kennzeichnen Sie Ihre Projekte einfach und vermeiden Sie Verwechslungen zwischen Produktions-, Test- und Entwicklungsumgebungen",
+    "message": "Verhindere Produktionsfehler durch visuelle Markierung von Dev-, Staging- und Produktionsumgebungen im Browser.",
     "description": "Erweiterungsbeschreibung"
   },
   "common_save": {

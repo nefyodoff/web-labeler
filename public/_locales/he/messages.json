@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: סמן וסימון סביבות",
     "description": "שם האפליקציה"
   },
   "appDescription": {
-    "message": "תייג את הפרויקטים שלך בקלות והימנע מבלבול בין סביבות ייצור, בדיקות ופיתוח",
+    "message": "מנע טעויות בייצור על ידי סימון חזותי של סביבות פיתוח, בדיקות וייצור בדפדפן שלך.",
     "description": "תיאור ההרחבה"
   },
-
   "common_save": {
     "message": "שמור",
     "description": "כפתור שמירה"
@@ -28,7 +27,6 @@
     "message": "[ללא שם]",
     "description": "מציין מיקום לפריטים ללא שם"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "כותרת דף האפשרויות"
@@ -41,7 +39,6 @@
     "message": "כבוי",
     "description": "תווית מתג כיבוי"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "כותרת חלון הקופץ"
@@ -114,7 +111,6 @@
     "message": "האם אתה בטוח שברצונך למחוק כלל זה?",
     "description": "הודעת אישור מחיקת כלל"
   },
-
   "label_name": {
     "message": "שם",
     "description": "שדה שם התגית"
@@ -191,7 +187,6 @@
     "message": "הכרטיסייה שלך",
     "description": "כותרת כרטיסיית תצוגה מקדימה"
   },
-
   "label_shape_triangle": {
     "message": "משולש",
     "description": "צורת משולש"
@@ -208,7 +203,6 @@
     "message": "מסגרת",
     "description": "צורת מסגרת"
   },
-
   "label_border_none": {
     "message": "ללא",
     "description": "ללא מסגרת"
@@ -225,7 +219,6 @@
     "message": "מנוקד",
     "description": "מסגרת מנוקדת"
   },
-
   "label_faviconStyling": {
     "message": "עיצוב אייקון",
     "description": "תווית עיצוב אייקון"
@@ -246,7 +239,6 @@
     "message": "התג בדף מוסתר. מוצג רק האייקון המותאם אישית.",
     "description": "הודעת התראת מצב אייקון בלבד"
   },
-
   "label_iconStyle_none": {
     "message": "ללא",
     "description": "אפשרות סגנון אייקון - ללא"
@@ -255,7 +247,6 @@
     "message": "השתמש בסגנון תג",
     "description": "אפשרות סגנון אייקון - תג"
   },
-
   "label_collapseButton_less": {
     "message": "פחות",
     "description": "כפתור כיווץ - הצג פחות"
@@ -264,7 +255,6 @@
     "message": "עוד",
     "description": "כפתור הרחבה - הצג עוד"
   },
-
   "rules_addRule": {
     "message": "הוסף כלל",
     "description": "כפתור הוספת כלל"
@@ -289,7 +279,6 @@
     "message": "תבנית ביטוי רגולרי לא חוקית",
     "description": "שגיאת אימות ביטוי רגולרי לא חוקי"
   },
-
   "ruleType_contains": {
     "message": "מכיל",
     "description": "סוג כלל - מכיל"
@@ -310,7 +299,6 @@
     "message": "תואם ביטוי רגולרי",
     "description": "סוג כלל - ביטוי רגולרי"
   },
-
   "sourceType_hostname": {
     "message": "דומיין",
     "description": "סוג מקור - דומיין"
@@ -319,7 +307,6 @@
     "message": "URL מלא",
     "description": "סוג מקור - URL מלא"
   },
-
   "labelList_addLabel": {
     "message": "הוסף תגית",
     "description": "כפתור הוספת תגית"
@@ -352,7 +339,6 @@
     "message": "מזג תגיות נבחרות אל",
     "description": "כותרת חלון מיזוג"
   },
-
   "labelList_header_name": {
     "message": "שם תגית",
     "description": "כותרת טבלה - שם"
@@ -377,7 +363,6 @@
     "message": "גרור פריטים לסידור מחדש. התגיות נבדקות מלמעלה למטה; המטח הראשון מוצג",
     "description": "תיאור כלי לסידור מחדש"
   },
-
   "labelSettings_badge": {
     "message": "תג",
     "description": "כפתור/כותרת חלון תג"
@@ -398,7 +383,6 @@
     "message": "התגית מוצגת כאשר כלל בודד תואם (לוגיקת OR בין שורות)",
     "description": "תיאור כלי לכללים"
   },
-
   "labelSettings_experimental": {
     "message": "ניסיוני",
     "description": "תג תכונה ניסיונית"
@@ -411,7 +395,6 @@
     "message": "ואם אתה באמת נהנה להשתמש בה — ספר לו גם על כך, זה עשוי לשמח אותו 😊🙏!",
     "description": "הודעת הנאה מתכונה ניסיונית"
   },
-
   "combineModal_selectTarget": {
     "message": "בחר תגית יעד",
     "description": "מציין מיקום לבחירת תגית יעד"
@@ -424,17 +407,14 @@
     "message": "האם אתה בטוח שברצונך להמשיך?",
     "description": "שאלת אישור מיזוג"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "האם אתה בטוח?",
     "description": "הודעת אישור ברירת מחדל"
   },
-
   "positionControl_tooltip": {
     "message": "מקם תגית במיקום $1",
     "description": "תיאור כלי לבקרת מיקום, $1=שם המיקום"
   },
-
   "export_selected": {
     "message": "ייצא נבחרים",
     "description": "כפתור ייצוא נבחרים"
@@ -443,7 +423,6 @@
     "message": "ייצא תגיות",
     "description": "כפתור ייצוא הכל"
   },
-
   "import_title": {
     "message": "ייבא תגיות",
     "description": "כותרת חלון ייבוא"
@@ -464,7 +443,6 @@
     "message": "מהרחבה אחרת",
     "description": "פריט תפריט ייבוא מהרחבה"
   },
-
   "importTab_fromFile": {
     "message": "מקובץ",
     "description": "כרטיסיית ייבוא מקובץ"
@@ -477,7 +455,6 @@
     "message": "מהרחבה אחרת",
     "description": "כרטיסיית ייבוא מהרחבה"
   },
-
   "importFromFile_dropzone": {
     "message": "גרור קובץ לכאן או לחץ לבחירה",
     "description": "טקסט אזור גרירה ושחרור"
@@ -490,7 +467,6 @@
     "message": "נכשל בקריאת הקובץ",
     "description": "כותרת שגיאת קריאת קובץ"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "תווית קלט URL"
@@ -527,7 +503,6 @@
     "message": "שמור הגדרות",
     "description": "כפתור שמירת הגדרות"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL לקובץ JSON",
     "description": "תיאור כלי לשירות ענן כללי"
@@ -540,7 +515,6 @@
     "message": "זוהה קישור הורדה ישיר של $1.",
     "description": "תיאור כלי לקישור הורדה ישיר, $1=שם השירות"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "נדרשת הרשאה",
     "description": "כותרת התראת הרשאה נדרשת"
@@ -549,7 +523,6 @@
     "message": "הסנכרון נכשל",
     "description": "כותרת התראת כשל סנכרון"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "שם Google Drive"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "שם Dropbox"
   },
-
   "importFromExtension_alert_title": {
     "message": "תכונה זו עוזרת לך להעביר תגיות קיימות מהרחבות אחרות.",
     "description": "כותרת התראת ייבוא מהרחבה"
@@ -595,7 +567,6 @@
     "message": "נכשל בייבוא תגיות",
     "description": "כותרת שגיאת ייבוא"
   },
-
   "importLabels_title_default": {
     "message": "ייבא תגיות",
     "description": "כותרת ייבוא ברירת מחדל"
@@ -648,7 +619,6 @@
     "message": "תגיות",
     "description": "תגית ברבים"
   },
-
   "validation_invalidUrl": {
     "message": "URL לא חוקי או סנכרון מתבצע",
     "description": "שגיאת URL לא חוקי"
@@ -697,7 +667,6 @@
     "message": "שגיאה לא ידועה",
     "description": "שגיאה לא ידועה כחלופה"
   },
-
   "updateFrequency_disabled": {
     "message": "מושבת",
     "description": "תדירות עדכון - מושבת"
@@ -722,7 +691,6 @@
     "message": "פעם ביום",
     "description": "תדירות עדכון - 24 שעות"
   },
-
   "autoSync_label": {
     "message": "סנכרון אוטומטי",
     "description": "תווית סנכרון אוטומטי"
@@ -747,7 +715,6 @@
     "message": "סנכרן עכשיו",
     "description": "תיאור כלי לסנכרן עכשיו"
   },
-
   "relativeTime_justNow": {
     "message": "עכשיו",
     "description": "זמן יחסי - עכשיו"
@@ -776,7 +743,6 @@
     "message": "לפני $1 ימים",
     "description": "זמן יחסי - ימים לפני, $1=כמות"
   },
-
   "footer_helpful": {
     "message": "מצאת את ההרחבה מועילה?",
     "description": "טקסט כותרת תחתונה על תועלת"
@@ -785,7 +751,6 @@
     "message": "דרג הרחבה זו",
     "description": "כפתור דירוג בכותרת התחתונה"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "צור קשר עם המפתח",
     "description": "כפתור יצירת קשר עם המפתח"
@@ -794,12 +759,10 @@
     "message": "דרג",
     "description": "כפתור דירוג"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "החלף ערכת צבעים",
     "description": "תווית aria למחליף ערכת צבעים"
   },
-
   "language_select": {
     "message": "בחר שפה",
     "description": "תווית תפריט בחירת שפה"

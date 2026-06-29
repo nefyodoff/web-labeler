@@ -1,23 +1,33 @@
-WebLabeler is a handy tool for web developers, testers, content managers, and others juggling multiple environments (development, testing, staging, and production) daily.
+Instantly mark your browser with clear Dev, Staging, and Production labels.
+Avoid costly mistakes when working across environments.
 
-With this lightweight extension, you can effortlessly create noticeable indicators that make your tabs easily distinguishable, helping you avoid mix-ups and costly mistakes.
+Working across multiple environments can lead to critical mistakes like running actions in production instead of staging.
 
-Boost your productivity and stay organized with WebLabeler! 💪✨
+WebLabeler visually marks your environment directly in the browser using customizable labels and colors.
 
 Key Features:
 
-🎨 Fully Customizable Labels: Design your labels exactly how you want by adjusting their shapes (triangle, ribbon, or frame), colors, positions, and opacity.
+🎨 Custom Environment Labels: Design labels for Dev, Staging, Production, or any custom environment — adjust shapes, colors, positions, and opacity.
 
-🔖 Favicon Badging: Instantly distinguish projects directly in the browser tab bar.
+🔖 Favicon Badging: Instantly distinguish environments directly in the browser tab bar.
 
-🌐 Powerful Domain Rules: Automatically apply labels to your projects based on their domain names using flexible rule types.
+🌐 Domain-Based Rules: Automatically apply environment labels based on domain names using flexible rule types, including regex support.
 
-🖱 Quick Access via Chrome Popup: Easily toggle labels on or off without navigating to the settings.
+🖱 Quick Toggle: Enable or disable labels without leaving your current page.
 
-📦 Export/Import Configurations: Share label settings with your team or reuse them across projects. Supports URL sync with automatic updates.
+📦 Import / Export: Share label configurations with your team or sync them from a URL with automatic updates.
 
-📥 Easy Migration: Migrate your data from other extensions and start using WebLabeler right away.
+📥 Easy Migration: Import your existing labels from other extensions and start using WebLabeler right away.
 
-🔄 Sync Across Devices: Keep your label configurations synchronized across all your devices using Google Chrome’s account sync feature.
+🔄 Sync Across Devices: Keep your environment labels synchronized across all devices via Google Chrome account sync.
 
-🌙 Dark Mode Support: Enjoy a dark mode option for comfortable use during late-night sessions or in low-light environments.
+🌙 Dark Mode Support: Comfortable to use during late-night sessions or in low-light environments.
+
+Use Cases:
+
+✅ Prevent deploying or testing changes in production by mistake
+✅ Instantly recognize staging vs production versions
+✅ Safely test features across Dev, Staging, and Production environments
+✅ Manage multiple projects without confusing environments or tabs
+
+Stay confident in every environment you work in.

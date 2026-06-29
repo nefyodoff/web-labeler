@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Vides Marķieris & Indikators",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Ērti marķējiet savus projektus un izvairieties no jucekļa starp ražošanas, testa vai izstrādes vidēm",
+    "message": "Novērsiet ražošanas kļūdas, vizuāli iezīmējot Dev, Staging un Production vides savā pārlūkprogrammā.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Saglabāt",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[bez nosaukuma]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Izslēgts",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Vai tiešām vēlaties dzēst šo likumu?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Nosaukums",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Jūsu Cilne",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "trīsstūris",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "rāmis",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "nav",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "punktēta",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Favikona Stils",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Žetons lapā ir paslēpts. Redzams tikai marķētais favikons.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Nav",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Izmantot žetona stilu",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Mazāk",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Vairāk",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Pievienot Likumu",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Nederīgs regulārās izteiksmes modelis",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Satur",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Atbilst RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domēns",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Pilns URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Pievienot Etiķeti",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Apvienot Atlasītās Etiķetes",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Etiķetes Nosaukums",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Velciet vienumus, lai pārkārtotu. Etiķetes tiek pārbaudītas no augšas uz leju; tiek rādīta pirmā atbilstība",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Žetons",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Etiķete tiek rādīta, ja atbilst jebkurš viens likums (VAI loģika starp rindām)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Eksperimentāls",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Un, ja jums tas patiešām patīk — lūdzu, pastāstiet arī viņam, tas varētu uzlabot viņa dienu 😊🙏!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Izvēlieties mērķa etiķeti",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Vai tiešām vēlaties turpināt?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Vai esat pārliecināts?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Novietot etiķeti $1 pozīcijā",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Eksportēt Atlasītās",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Eksportēt Etiķetes",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importēt Etiķetes",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "No Cita Paplašinājuma",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "No Faila",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "No Cita Paplašinājuma",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Velciet failu šeit vai noklikšķiniet, lai atlasītu",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Neizdevās nolasīt failu",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Saglabāt Iestatījumus",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL uz JSON failu",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "$1 tieša lejupielādes saite atklāta.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Nepieciešama Atļauja",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Neizdevās sinhronizēt",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Šī funkcija palīdz jums migrēt esošās etiķetes no citiem paplašinājumiem.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Neizdevās importēt etiķetes",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importēt etiķetes",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "etiķetes",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Nederīgs URL vai notiek sinhronizācija",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "nezināma kļūda",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Atspējots",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "Reizi dienā",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Automātiskā Sinhronizācija",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Sinhronizēt tagad",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "tikko",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "pirms $1 dienām",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Vai šis paplašinājums ir noderīgs?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Novērtējiet šo paplašinājumu",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Sazināties ar Izstrādātāju",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Novērtēt",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Pārslēgt krāsu shēmu",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Izvēlieties Valodu",
     "description": "Language selector menu label"

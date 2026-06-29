@@ -1,13 +1,12 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Miljömarkör & Indikator",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Märk dina projekt enkelt och undvik att förväxla produktionsmiljö med test- eller utvecklingsmiljöer",
+    "message": "Förhindra produktionsmisstag genom att visuellt markera Dev-, Staging- och produktionsmiljöer i din webbläsare.",
     "description": "Extension description"
   },
-
   "common_save": {
     "message": "Spara",
     "description": "Save button"
@@ -28,7 +27,6 @@
     "message": "[namnlös]",
     "description": "Placeholder for unnamed items"
   },
-
   "optionsPage_title": {
     "message": "WebLabeler",
     "description": "Options page title"
@@ -41,7 +39,6 @@
     "message": "Av",
     "description": "Toggle switch Off label"
   },
-
   "popup_title": {
     "message": "WebLabeler",
     "description": "Popup title"
@@ -114,7 +111,6 @@
     "message": "Är du säker på att du vill ta bort den här regeln?",
     "description": "Delete rule confirmation message"
   },
-
   "label_name": {
     "message": "Namn",
     "description": "Label name field"
@@ -191,7 +187,6 @@
     "message": "Din flik",
     "description": "Preview tab title"
   },
-
   "label_shape_triangle": {
     "message": "triangel",
     "description": "Triangle shape"
@@ -208,7 +203,6 @@
     "message": "ram",
     "description": "Frame shape"
   },
-
   "label_border_none": {
     "message": "ingen",
     "description": "No border"
@@ -225,7 +219,6 @@
     "message": "prickad",
     "description": "Dotted border"
   },
-
   "label_faviconStyling": {
     "message": "Favicon-stil",
     "description": "Favicon style label"
@@ -246,7 +239,6 @@
     "message": "Märket på sidan är dolt. Endast den märkta favicon-ikonen visas.",
     "description": "Icon-only alert message"
   },
-
   "label_iconStyle_none": {
     "message": "Ingen",
     "description": "Icon style option - none"
@@ -255,7 +247,6 @@
     "message": "Använd märkestil",
     "description": "Icon style option - badge"
   },
-
   "label_collapseButton_less": {
     "message": "Mindre",
     "description": "Collapse button - show less"
@@ -264,7 +255,6 @@
     "message": "Mer",
     "description": "Collapse button - show more"
   },
-
   "rules_addRule": {
     "message": "Lägg till regel",
     "description": "Add rule button"
@@ -289,7 +279,6 @@
     "message": "Ogiltigt reguljärt uttrycksmönster",
     "description": "Invalid regexp validation error"
   },
-
   "ruleType_contains": {
     "message": "Innehåller",
     "description": "Rule type - contains"
@@ -310,7 +299,6 @@
     "message": "Matchar RegExp",
     "description": "Rule type - regexp"
   },
-
   "sourceType_hostname": {
     "message": "Domän",
     "description": "Source type - hostname"
@@ -319,7 +307,6 @@
     "message": "Fullständig URL",
     "description": "Source type - full URL"
   },
-
   "labelList_addLabel": {
     "message": "Lägg till märke",
     "description": "Add label button"
@@ -352,7 +339,6 @@
     "message": "Kombinera valda märken till",
     "description": "Combine modal title"
   },
-
   "labelList_header_name": {
     "message": "Märkesnamn",
     "description": "Table header - name"
@@ -377,7 +363,6 @@
     "message": "Dra objekt för att ändra ordning. Märken kontrolleras uppifrån och ner; den första matchningen visas",
     "description": "Reorder tooltip"
   },
-
   "labelSettings_badge": {
     "message": "Märke",
     "description": "Badge button/modal title"
@@ -398,7 +383,6 @@
     "message": "Märket visas när någon enskild regel matchar (ELLER-logik mellan rader)",
     "description": "Rules tooltip"
   },
-
   "labelSettings_experimental": {
     "message": "Experimentell",
     "description": "Experimental feature badge"
@@ -411,7 +395,6 @@
     "message": "Och om du faktiskt tycker om att använda den — berätta gärna det också för honom, det kan göra hans dag!",
     "description": "Experimental feature enjoy message"
   },
-
   "combineModal_selectTarget": {
     "message": "Välj målmärke",
     "description": "Select target label placeholder"
@@ -424,17 +407,14 @@
     "message": "Är du säker på att du vill fortsätta?",
     "description": "Combine confirmation question"
   },
-
   "confirmationModal_defaultMessage": {
     "message": "Är du säker?",
     "description": "Default confirmation message"
   },
-
   "positionControl_tooltip": {
     "message": "Placera märke på $1 position",
     "description": "Position control tooltip, $1=position name"
   },
-
   "export_selected": {
     "message": "Exportera valda",
     "description": "Export selected button"
@@ -443,7 +423,6 @@
     "message": "Exportera märken",
     "description": "Export all button"
   },
-
   "import_title": {
     "message": "Importera märken",
     "description": "Import modal title"
@@ -464,7 +443,6 @@
     "message": "Från annat tillägg",
     "description": "Import from extension menu item"
   },
-
   "importTab_fromFile": {
     "message": "Från fil",
     "description": "From file tab"
@@ -477,7 +455,6 @@
     "message": "Från annat tillägg",
     "description": "From extension tab"
   },
-
   "importFromFile_dropzone": {
     "message": "Dra fil hit eller klicka för att välja",
     "description": "File dropzone text"
@@ -490,7 +467,6 @@
     "message": "Kunde inte läsa filen",
     "description": "File read error title"
   },
-
   "importFromUrl_label": {
     "message": "URL",
     "description": "URL input label"
@@ -527,7 +503,6 @@
     "message": "Spara inställningar",
     "description": "Save settings button"
   },
-
   "importFromUrl_cloudService_generic": {
     "message": "URL till JSON-fil",
     "description": "Generic cloud service tooltip"
@@ -540,7 +515,6 @@
     "message": "Direkt nedladdningslänk för $1 upptäckt.",
     "description": "Direct download link tooltip, $1=service name"
   },
-
   "importFromUrl_permissionRequired": {
     "message": "Behörighet krävs",
     "description": "Permission required alert title"
@@ -549,7 +523,6 @@
     "message": "Synkronisering misslyckades",
     "description": "Sync failed alert title"
   },
-
   "cloudService_googleDrive": {
     "message": "Google Drive",
     "description": "Google Drive name"
@@ -562,7 +535,6 @@
     "message": "Dropbox",
     "description": "Dropbox name"
   },
-
   "importFromExtension_alert_title": {
     "message": "Den här funktionen hjälper dig att migrera dina befintliga märken från andra tillägg.",
     "description": "Import from extension alert title"
@@ -595,7 +567,6 @@
     "message": "Kunde inte importera märken",
     "description": "Import failed error title"
   },
-
   "importLabels_title_default": {
     "message": "Importera märken",
     "description": "Default import title"
@@ -648,7 +619,6 @@
     "message": "märken",
     "description": "Label plural"
   },
-
   "validation_invalidUrl": {
     "message": "Ogiltig URL eller synkronisering pågår",
     "description": "Invalid URL error"
@@ -697,7 +667,6 @@
     "message": "okänt fel",
     "description": "Unknown error fallback"
   },
-
   "updateFrequency_disabled": {
     "message": "Inaktiverad",
     "description": "Update frequency - disabled"
@@ -722,7 +691,6 @@
     "message": "En gång om dagen",
     "description": "Update frequency - 24 hours"
   },
-
   "autoSync_label": {
     "message": "Auto-synk",
     "description": "Auto-sync label"
@@ -747,7 +715,6 @@
     "message": "Synkronisera nu",
     "description": "Sync now tooltip"
   },
-
   "relativeTime_justNow": {
     "message": "just nu",
     "description": "Relative time - just now"
@@ -776,7 +743,6 @@
     "message": "$1 dagar sedan",
     "description": "Relative time - days ago plural, $1=count"
   },
-
   "footer_helpful": {
     "message": "Tycker du att det här tillägget är hjälpsamt?",
     "description": "Footer helpful text"
@@ -785,7 +751,6 @@
     "message": "Betygsätt detta tillägg",
     "description": "Footer rate button"
   },
-
   "featureBadge_contactDeveloper": {
     "message": "Kontakta utvecklaren",
     "description": "Contact developer button"
@@ -794,12 +759,10 @@
     "message": "Betygsätt",
     "description": "Rate button"
   },
-
   "themeSwitcher_ariaLabel": {
     "message": "Växla färgschema",
     "description": "Theme switcher aria label"
   },
-
   "language_select": {
     "message": "Välj språk",
     "description": "Language selector menu label"

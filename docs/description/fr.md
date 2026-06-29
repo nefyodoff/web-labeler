@@ -1,23 +1,33 @@
-WebLabeler est un outil pratique pour les développeurs web, testeurs, gestionnaires de contenu et autres qui jonglent quotidiennement avec plusieurs environnements (development, testing, staging, and production).
+Marquez instantanément votre navigateur avec des étiquettes claires pour Dev, Staging et Production.
+Évitez les erreurs coûteuses lors du travail dans plusieurs environnements.
 
-Avec cette extension légère, vous pouvez facilement créer des indicateurs visibles qui rendent vos onglets facilement reconnaissables, vous aidant à éviter les confusions et les erreurs coûteuses.
+Travailler sur plusieurs environnements peut entraîner des erreurs critiques, comme exécuter des actions en production au lieu du staging.
 
-Boostez votre productivité et restez organisé avec WebLabeler ! 💪✨
+WebLabeler marque visuellement votre environnement directement dans le navigateur à l'aide d'étiquettes et de couleurs personnalisables.
 
 Fonctionnalités principales :
 
-🎨 Étiquettes entièrement personnalisables : Concevez vos étiquettes exactement comme vous le souhaitez en ajustant leurs formes (triangle, ruban ou cadre), couleurs, positions et opacité.
+🎨 Étiquettes d'environnement personnalisées : Concevez des étiquettes pour Dev, Staging, Production ou tout environnement personnalisé — ajustez les formes, couleurs, positions et opacité.
 
-🔖 Badge de favicon : Distinguez instantanément les projets directement dans la barre d'onglets du navigateur.
+🔖 Badge de favicon : Distinguez instantanément les environnements directement dans la barre d'onglets du navigateur.
 
-🌐 Règles de domaine puissantes : Appliquez automatiquement des étiquettes à vos projets en fonction de leurs noms de domaine à l'aide de types de règles flexibles.
+🌐 Règles basées sur le domaine : Appliquez automatiquement des étiquettes d'environnement selon les noms de domaine grâce à des types de règles flexibles, avec prise en charge des expressions régulières.
 
-🖱 Accès rapide via le popup Chrome : Activez ou désactivez facilement les étiquettes sans naviguer vers les paramètres.
+🖱 Activation rapide : Activez ou désactivez les étiquettes sans quitter la page actuelle.
 
-📦 Exporter/Importer les configurations : Partagez les paramètres d'étiquettes avec votre équipe ou réutilisez-les dans différents projets. Prend en charge la synchronisation URL avec mises à jour automatiques.
+📦 Import / Export : Partagez les configurations d'étiquettes avec votre équipe ou synchronisez-les depuis une URL avec des mises à jour automatiques.
 
-📥 Migration facile : Migrez vos données depuis d'autres extensions et commencez à utiliser WebLabeler immédiatement.
+📥 Migration facile : Importez vos étiquettes existantes depuis d'autres extensions et commencez à utiliser WebLabeler immédiatement.
 
-🔄 Synchronisation entre appareils : Gardez vos configurations d'étiquettes synchronisées sur tous vos appareils en utilisant la fonction de synchronisation de compte de Google Chrome.
+🔄 Synchronisation entre appareils : Gardez vos étiquettes d'environnement synchronisées sur tous vos appareils via la synchronisation de compte Google Chrome.
 
-🌙 Support du mode sombre : Profitez d'une option de mode sombre pour une utilisation confortable pendant les sessions nocturnes ou dans des environnements à faible luminosité.
+🌙 Mode sombre : Utilisation confortable lors de sessions nocturnes ou dans des environnements peu éclairés.
+
+Cas d'utilisation :
+
+✅ Éviter de déployer ou tester des modifications en production par erreur
+✅ Reconnaître instantanément les versions staging et production
+✅ Tester des fonctionnalités en toute sécurité dans les environnements Dev, Staging et Production
+✅ Gérer plusieurs projets sans confondre les environnements ou les onglets
+
+Travaillez en toute confiance dans chaque environnement.

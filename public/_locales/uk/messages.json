@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "WebLabeler",
+    "message": "WebLabeler: Маркер і Індикатор Середовища",
     "description": "Application name"
   },
   "appDescription": {
-    "message": "Легко маркуйте свої проєкти та уникайте плутанини між продакшеном і тестовими або розробницькими середовищами",
+    "message": "Запобігайте помилкам на продакшні, візуально позначаючи середовища Dev, Staging і Production у браузері.",
     "description": "Extension description"
   },
   "common_save": {
