@@ -1,4 +1,3 @@
-import browser from "webextension-polyfill"
 import { useState } from "react"
 import {
   ActionIcon,
@@ -9,7 +8,9 @@ import {
   Text,
   useCombobox,
 } from "@mantine/core"
+import { IconWorld } from "@tabler/icons-react"
 import * as flags from "country-flag-icons/react/1x1"
+import browser from "webextension-polyfill"
 import { useOptionsContext, useTranslation } from "@/contexts"
 import { SUPPORTED_LANGUAGES, SupportedLocale } from "@/i18n"
 import styles from "./styles.module.css"
@@ -50,7 +51,7 @@ function LanguageSelector() {
   )
 
   const CurrentFlag =
-    flags[currentLanguage.flag as keyof typeof flags] || flags.GB
+    flags[currentLanguage.flag as keyof typeof flags] || IconWorld
 
   return (
     <Combobox
@@ -90,7 +91,7 @@ function LanguageSelector() {
           <Stack gap={0}>
             {filteredLanguages.map((language) => {
               const Flag =
-                flags[language.flag as keyof typeof flags] || flags.GB
+                flags[language.flag as keyof typeof flags] || IconWorld
               return (
                 <Combobox.Option
                   key={language.code}
