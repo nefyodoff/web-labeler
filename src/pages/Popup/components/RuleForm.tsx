@@ -1,6 +1,6 @@
 import { ClipboardEvent, useState } from "react"
-import { Button, Group, Select, Stack, TextInput } from "@mantine/core"
-import { IconCheck, IconPlus } from "@tabler/icons-react"
+import { Button, Group, Select, Stack, TextInput, Tooltip } from "@mantine/core"
+import { IconCheck, IconPlus, IconX } from "@tabler/icons-react"
 import { useTranslation } from "@/contexts"
 import {
   RuleType,
@@ -10,6 +10,11 @@ import {
   sourceTypes,
 } from "@/options/constants"
 import { Rule } from "@/options/types"
+import {
+  checkRule,
+  getComparisonString,
+  isBrowserUrl,
+} from "@/utils/labelMatching"
 
 interface RuleFormProps {
   currentUrl: string
@@ -17,6 +22,7 @@ interface RuleFormProps {
   selectedLabelId?: string
   onSave: (rule: Rule) => void
   onCancel?: () => void
+  autoSwitchOnEdit?: boolean
 }
 
 function RuleForm({
@@ -25,6 +31,7 @@ function RuleForm({
   selectedLabelId,
   onSave,
   onCancel,
+  autoSwitchOnEdit = false,
 }: RuleFormProps) {
   const { t } = useTranslation()
 
@@ -50,6 +57,27 @@ function RuleForm({
   const [ruleValue, setRuleValue] = useState<string>(
     initialRule?.value || defaultHostname
   )
+  const [valueModified, setValueModified] = useState(false)
+
+  const showMatchIndicator =
+    !!ruleValue.trim() && !!currentUrl && !isBrowserUrl(currentUrl)
+
+  const matchesCurrentUrl = showMatchIndicator
+    ? checkRule(
+        ruleType,
+        ruleValue.trim(),
+        getComparisonString(currentUrl, ruleSource)
+      )
+    : null
+
+  const handleValueChange = (newValue: string) => {
+    setRuleValue(newValue)
+    if (autoSwitchOnEdit && !valueModified) {
+      setValueModified(true)
+      setRuleType("contains")
+      setRuleSource("fullUrl")
+    }
+  }
 
   // Source select options
   const sourceOptions = sourceTypes.map((source) => ({
@@ -124,9 +152,28 @@ function RuleForm({
       <TextInput
         size="xs"
         value={ruleValue}
-        onChange={(e) => setRuleValue(e.currentTarget.value)}
+        onChange={(e) => handleValueChange(e.currentTarget.value)}
         onPaste={handlePaste}
         placeholder={defaultHostname}
+        rightSection={
+          matchesCurrentUrl !== null && (
+            <Tooltip
+              label={t(
+                matchesCurrentUrl
+                  ? "ruleForm_matchesCurrentUrl"
+                  : "ruleForm_noMatchCurrentUrl"
+              )}
+              withArrow
+              openDelay={300}
+            >
+              {matchesCurrentUrl ? (
+                <IconCheck size={14} color="var(--mantine-color-green-6)" />
+              ) : (
+                <IconX size={14} color="var(--mantine-color-red-6)" />
+              )}
+            </Tooltip>
+          )
+        }
       />
 
       <Group gap={6} justify="end">

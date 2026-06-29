@@ -111,6 +111,14 @@
     "message": "Vai tiešām vēlaties dzēst šo likumu?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Atbilst pašreizējam URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Neatbilst pašreizējam URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Nosaukums",
     "description": "Label name field"

@@ -111,6 +111,14 @@
     "message": "このルールを削除してもよろしいですか？",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "現在のURLと一致",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "現在のURLと一致しない",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "名前",
     "description": "Label name field"

@@ -111,6 +111,14 @@
     "message": "Da li ste sigurni da želite da obrišete ovo pravilo?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Odgovara trenutnom URL-u",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Ne odgovara trenutnom URL-u",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Ime",
     "description": "Label name field"

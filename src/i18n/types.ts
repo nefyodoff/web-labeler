@@ -69,6 +69,8 @@ export const MESSAGE_KEYS = [
   "popup_deleteRule",
   "popup_deleteRuleTitle",
   "popup_deleteRuleConfirm",
+  "ruleForm_matchesCurrentUrl",
+  "ruleForm_noMatchCurrentUrl",
   // Label form fields
   "label_name",
   "label_name_placeholder",

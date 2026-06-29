@@ -111,6 +111,14 @@
     "message": "Ви впевнені, що хочете видалити це правило?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Відповідає поточному URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Не відповідає поточному URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Назва",
     "description": "Label name field"

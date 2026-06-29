@@ -111,6 +111,14 @@
     "message": "Opravdu chcete smazat toto pravidlo?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Odpovídá aktuální URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Neodpovídá aktuální URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Název",
     "description": "Label name field"

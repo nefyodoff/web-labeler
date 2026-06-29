@@ -111,6 +111,14 @@
     "message": "Är du säker på att du vill ta bort den här regeln?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Matchar nuvarande URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Matchar inte nuvarande URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Namn",
     "description": "Label name field"

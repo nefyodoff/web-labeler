@@ -111,6 +111,14 @@
     "message": "Kas oled kindel, et soovid selle reegli kustutada?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Vastab praegusele URL-ile",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Ei vasta praegusele URL-ile",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Nimi",
     "description": "Label name field"

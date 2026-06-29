@@ -111,6 +111,14 @@
     "message": "Bu kuralı silmek istediğinizden emin misiniz?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Mevcut URL ile eşleşiyor",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Mevcut URL ile eşleşmiyor",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "İsim",
     "description": "Label name field"

@@ -111,6 +111,14 @@
     "message": "Sigurado ka bang gusto mong burahin ang patakarang ito?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Tumutugma sa kasalukuyang URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Hindi tumutugma sa kasalukuyang URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Pangalan",
     "description": "Label name field"

@@ -111,6 +111,14 @@
     "message": "Biztosan törli ezt a szabályt?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Megegyezik az aktuális URL-lel",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Nem egyezik meg az aktuális URL-lel",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Név",
     "description": "Label name field"

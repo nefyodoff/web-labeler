@@ -111,6 +111,14 @@
     "message": "क्या आप वाकई इस नियम को हटाना चाहते हैं?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "वर्तमान URL से मेल खाता है",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "वर्तमान URL से मेल नहीं खाता",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "नाम",
     "description": "Label name field"

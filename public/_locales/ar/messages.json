@@ -111,6 +111,14 @@
     "message": "هل أنت متأكد أنك تريد حذف هذه القاعدة؟",
     "description": "رسالة تأكيد حذف القاعدة"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "يطابق عنوان URL الحالي",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "لا يطابق عنوان URL الحالي",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "الاسم",
     "description": "حقل اسم التسمية"

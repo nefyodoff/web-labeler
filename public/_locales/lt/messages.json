@@ -111,6 +111,14 @@
     "message": "Ar tikrai norite ištrinti šią taisyklę?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Atitinka dabartinį URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Neatitinka dabartinio URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Pavadinimas",
     "description": "Label name field"

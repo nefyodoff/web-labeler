@@ -111,6 +111,14 @@
     "message": "Apakah Anda yakin ingin menghapus aturan ini?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Cocok dengan URL saat ini",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Tidak cocok dengan URL saat ini",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Nama",
     "description": "Label name field"

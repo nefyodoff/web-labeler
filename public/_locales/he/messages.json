@@ -111,6 +111,14 @@
     "message": "האם אתה בטוח שברצונך למחוק כלל זה?",
     "description": "הודעת אישור מחיקת כלל"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "תואם את כתובת ה-URL הנוכחית",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "אינו תואם את כתובת ה-URL הנוכחית",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "שם",
     "description": "שדה שם התגית"

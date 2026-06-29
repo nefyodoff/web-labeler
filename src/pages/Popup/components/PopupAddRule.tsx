@@ -79,6 +79,7 @@ function PopupAddRule({ currentUrl }: PopupAddRuleProps) {
         currentUrl={currentUrl}
         selectedLabelId={selectedLabelId}
         onSave={handleSaveRule}
+        autoSwitchOnEdit
       />
     </Stack>
   )

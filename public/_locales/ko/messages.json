@@ -111,6 +111,14 @@
     "message": "이 규칙을 삭제하시겠습니까?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "현재 URL과 일치",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "현재 URL과 일치하지 않음",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "이름",
     "description": "Label name field"

@@ -111,6 +111,14 @@
     "message": "Êtes-vous sûr de vouloir supprimer cette règle ?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Correspond à l'URL actuelle",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Ne correspond pas à l'URL actuelle",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Nom",
     "description": "Label name field"

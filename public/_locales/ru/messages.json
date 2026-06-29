@@ -111,6 +111,14 @@
     "message": "Вы уверены, что хотите удалить это правило?",
     "description": "Сообщение подтверждения удаления правила"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Соответствует текущему URL",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Не соответствует текущему URL",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Название",
     "description": "Поле названия метки"

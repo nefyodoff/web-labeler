@@ -111,6 +111,14 @@
     "message": "Ești sigur că vrei să ștergi această regulă?",
     "description": "Delete rule confirmation message"
   },
+  "ruleForm_matchesCurrentUrl": {
+    "message": "Se potrivește cu URL-ul curent",
+    "description": "Tooltip shown when rule value matches the current tab URL"
+  },
+  "ruleForm_noMatchCurrentUrl": {
+    "message": "Nu se potrivește cu URL-ul curent",
+    "description": "Tooltip shown when rule value does not match the current tab URL"
+  },
   "label_name": {
     "message": "Nume",
     "description": "Label name field"
