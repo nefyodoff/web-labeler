@@ -18,12 +18,14 @@ interface PopupMatchedLabelProps {
   label: Label
   matchedRule: Rule
   currentUrl: string
+  onRuleSaved: () => void
 }
 
 function PopupMatchedLabel({
   label,
   matchedRule,
   currentUrl,
+  onRuleSaved,
 }: PopupMatchedLabelProps) {
   const { options, dispatch } = useOptionsContext()
   const { t } = useTranslation()
@@ -57,15 +59,13 @@ function PopupMatchedLabel({
   }
 
   const handleSaveEdit = (updatedRule: Rule) => {
-    // If changing to a different label
     if (selectedLabelId !== label.id) {
       moveRuleBetweenLabels(label.id, selectedLabelId, matchedRule, updatedRule)
     } else {
-      // Update rule in same label
       updateRuleInLabel(label.id, matchedRule, updatedRule)
     }
-
     setIsEditing(false)
+    onRuleSaved()
   }
 
   const handleDeleteRule = () => {

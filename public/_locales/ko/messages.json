@@ -11,6 +11,10 @@
     "message": "저장",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "저장됨!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "확인",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "규칙 삭제",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "규칙이 추가됨!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "규칙이 저장됨!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "이 규칙을 삭제하시겠습니까?",
     "description": "Delete rule confirmation message"

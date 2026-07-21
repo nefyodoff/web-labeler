@@ -11,6 +11,10 @@
     "message": "Зберегти",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Збережено!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Підтвердити",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Видалення правила",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Правило додано!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Правило збережено!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Ви впевнені, що хочете видалити це правило?",
     "description": "Delete rule confirmation message"

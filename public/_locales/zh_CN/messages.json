@@ -11,6 +11,10 @@
     "message": "保存",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "已保存！",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "确认",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "删除规则",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "规则已添加！",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "规则已保存！",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "您确定要删除此规则吗？",
     "description": "Delete rule confirmation message"

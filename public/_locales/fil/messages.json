@@ -11,6 +11,10 @@
     "message": "I-save",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Nai-save!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Kumpirmahin",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Burahin ang Patakaran",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Naidagdag ang panuntunan!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Nai-save ang panuntunan!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Sigurado ka bang gusto mong burahin ang patakarang ito?",
     "description": "Delete rule confirmation message"

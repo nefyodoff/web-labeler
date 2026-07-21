@@ -11,6 +11,10 @@
     "message": "Mentés",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Mentve!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Megerősítés",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Szabály Törlése",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Szabály hozzáadva!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Szabály mentve!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Biztosan törli ezt a szabályt?",
     "description": "Delete rule confirmation message"

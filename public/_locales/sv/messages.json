@@ -11,6 +11,10 @@
     "message": "Spara",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Sparat!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Bekräfta",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Ta bort regel",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Regel tillagd!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Regel sparad!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Är du säker på att du vill ta bort den här regeln?",
     "description": "Delete rule confirmation message"

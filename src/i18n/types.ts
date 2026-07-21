@@ -42,6 +42,7 @@ export const MESSAGE_KEYS = [
   "appDescription",
   // Common strings
   "common_save",
+  "common_saved",
   "common_confirm",
   "common_cancel",
   "common_delete",
@@ -69,6 +70,8 @@ export const MESSAGE_KEYS = [
   "popup_deleteRule",
   "popup_deleteRuleTitle",
   "popup_deleteRuleConfirm",
+  "popup_ruleAdded",
+  "popup_ruleSaved",
   "ruleForm_matchesCurrentUrl",
   "ruleForm_noMatchCurrentUrl",
   // Label form fields

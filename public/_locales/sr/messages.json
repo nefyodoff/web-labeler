@@ -11,6 +11,10 @@
     "message": "Sačuvaj",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Sačuvano!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Potvrdi",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Obriši pravilo",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Pravilo dodato!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Pravilo sačuvano!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Da li ste sigurni da želite da obrišete ovo pravilo?",
     "description": "Delete rule confirmation message"

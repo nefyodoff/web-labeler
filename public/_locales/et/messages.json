@@ -11,6 +11,10 @@
     "message": "Salvesta",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Salvestatud!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Kinnita",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Kustuta reegel",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Reegel lisatud!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Reegel salvestatud!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Kas oled kindel, et soovid selle reegli kustutada?",
     "description": "Delete rule confirmation message"

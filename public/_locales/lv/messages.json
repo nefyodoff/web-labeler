@@ -11,6 +11,10 @@
     "message": "Saglabāt",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Saglabāts!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Apstiprināt",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Dzēst Likumu",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Noteikums pievienots!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Noteikums saglabāts!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Vai tiešām vēlaties dzēst šo likumu?",
     "description": "Delete rule confirmation message"

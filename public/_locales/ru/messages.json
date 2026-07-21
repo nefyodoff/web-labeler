@@ -11,6 +11,10 @@
     "message": "Сохранить",
     "description": "Кнопка сохранения"
   },
+  "common_saved": {
+    "message": "Сохранено!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Подтвердить",
     "description": "Кнопка подтверждения"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Удаление правила",
     "description": "Заголовок модального окна удаления правила"
+  },  "popup_ruleAdded": {
+    "message": "Правило добавлено!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Правило сохранено!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Вы уверены, что хотите удалить это правило?",
     "description": "Сообщение подтверждения удаления правила"

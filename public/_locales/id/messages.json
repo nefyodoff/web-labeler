@@ -11,6 +11,10 @@
     "message": "Simpan",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Disimpan!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Konfirmasi",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Hapus Aturan",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Aturan ditambahkan!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Aturan disimpan!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Apakah Anda yakin ingin menghapus aturan ini?",
     "description": "Delete rule confirmation message"

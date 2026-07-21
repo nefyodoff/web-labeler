@@ -11,6 +11,10 @@
     "message": "Kaydet",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Kaydedildi!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Onayla",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Kuralı Sil",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Kural eklendi!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Kural kaydedildi!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Bu kuralı silmek istediğinizden emin misiniz?",
     "description": "Delete rule confirmation message"

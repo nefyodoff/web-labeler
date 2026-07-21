@@ -11,6 +11,10 @@
     "message": "Išsaugoti",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Išsaugota!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Patvirtinti",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Ištrinti taisyklę",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Taisyklė pridėta!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Taisyklė išsaugota!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Ar tikrai norite ištrinti šią taisyklę?",
     "description": "Delete rule confirmation message"

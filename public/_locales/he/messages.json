@@ -11,6 +11,10 @@
     "message": "שמור",
     "description": "כפתור שמירה"
   },
+  "common_saved": {
+    "message": "נשמר!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "אשר",
     "description": "כפתור אישור"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "מחק כלל",
     "description": "כותרת חלון מחיקת כלל"
+  },  "popup_ruleAdded": {
+    "message": "הכלל נוסף!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "הכלל נשמר!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "האם אתה בטוח שברצונך למחוק כלל זה?",
     "description": "הודעת אישור מחיקת כלל"

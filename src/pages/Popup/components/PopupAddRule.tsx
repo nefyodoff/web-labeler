@@ -10,9 +10,10 @@ import RuleForm from "./RuleForm"
 
 interface PopupAddRuleProps {
   currentUrl: string
+  onRuleSaved: () => void
 }
 
-function PopupAddRule({ currentUrl }: PopupAddRuleProps) {
+function PopupAddRule({ currentUrl, onRuleSaved }: PopupAddRuleProps) {
   const { options } = useOptionsContext()
   const { t } = useTranslation()
   const { addRuleToLabel } = useLabelOperations()
@@ -53,14 +54,9 @@ function PopupAddRule({ currentUrl }: PopupAddRuleProps) {
     }
 
     addRuleToLabel(selectedLabelId, newRule)
-
-    // Close form to provide feedback that rule was added
-    // If rule matches current tab, parent will show matched view
-    // If rule doesn't match, user sees initial "Add to Label" button
     setShowForm(false)
-
-    // Reset selected label for next add operation
     setSelectedLabelId("")
+    onRuleSaved()
   }
 
   return (

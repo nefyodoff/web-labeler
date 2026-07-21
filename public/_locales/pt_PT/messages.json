@@ -11,6 +11,10 @@
     "message": "Guardar",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Guardado!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Confirmar",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Eliminar regra",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Regra adicionada!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Regra guardada!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Tem a certeza de que pretende eliminar esta regra?",
     "description": "Delete rule confirmation message"

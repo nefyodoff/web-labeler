@@ -11,6 +11,10 @@
     "message": "Uložit",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "Uloženo!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Potvrdit",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Smazat pravidlo",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Pravidlo přidáno!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Pravidlo uloženo!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Opravdu chcete smazat toto pravidlo?",
     "description": "Delete rule confirmation message"

@@ -11,6 +11,10 @@
     "message": "Speichern",
     "description": "Schaltfläche Speichern"
   },
+  "common_saved": {
+    "message": "Gespeichert!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "Bestätigen",
     "description": "Schaltfläche Bestätigen"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "Regel löschen",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "Regel hinzugefügt!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "Regel gespeichert!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "Sind Sie sicher, dass Sie diese Regel löschen möchten?",
     "description": "Delete rule confirmation message"

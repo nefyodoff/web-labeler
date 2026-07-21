@@ -11,6 +11,10 @@
     "message": "حفظ",
     "description": "زر الحفظ"
   },
+  "common_saved": {
+    "message": "تم الحفظ!",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "تأكيد",
     "description": "زر التأكيد"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "حذف القاعدة",
     "description": "عنوان نافذة حذف القاعدة"
+  },  "popup_ruleAdded": {
+    "message": "تمت إضافة القاعدة!",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "تم حفظ القاعدة!",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "هل أنت متأكد أنك تريد حذف هذه القاعدة؟",
     "description": "رسالة تأكيد حذف القاعدة"

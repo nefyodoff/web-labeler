@@ -11,6 +11,10 @@
     "message": "保存",
     "description": "Save button"
   },
+  "common_saved": {
+    "message": "保存しました！",
+    "description": "Success confirmation after saving"
+  },
   "common_confirm": {
     "message": "確認",
     "description": "Confirm button"
@@ -106,7 +110,15 @@
   "popup_deleteRuleTitle": {
     "message": "ルールを削除",
     "description": "Delete rule modal title"
+  },  "popup_ruleAdded": {
+    "message": "ルールが追加されました！",
+    "description": "Success banner after adding a rule"
   },
+  "popup_ruleSaved": {
+    "message": "ルールが保存されました！",
+    "description": "Success banner after editing a rule"
+  },
+
   "popup_deleteRuleConfirm": {
     "message": "このルールを削除してもよろしいですか？",
     "description": "Delete rule confirmation message"

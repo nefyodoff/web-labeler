@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import {
+  Box,
   Button,
   Container,
   Divider,
@@ -9,9 +10,11 @@ import {
   ScrollArea,
   Stack,
   Switch,
+  Text,
   Title,
 } from "@mantine/core"
-import { IconSettings } from "@tabler/icons-react"
+import { useElementSize } from "@mantine/hooks"
+import { IconCheck, IconSettings } from "@tabler/icons-react"
 import browser from "webextension-polyfill"
 import { LabelListCompact } from "@/components/Label/List"
 import { useOptionsContext } from "@/contexts"
@@ -31,6 +34,15 @@ function Popup() {
   const [currentUrl, setCurrentUrl] = useState<string>("")
   const [labelMatch, setLabelMatch] = useState<LabelMatch | null>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [bannerMessage, setBannerMessage] = useState<string | null>(null)
+  const bannerTimer = useRef<ReturnType<typeof setTimeout>>()
+  const { ref: contentRef, height: contentHeight } = useElementSize()
+
+  const showBanner = useCallback((message: string) => {
+    clearTimeout(bannerTimer.current)
+    setBannerMessage(message)
+    bannerTimer.current = setTimeout(() => setBannerMessage(null), 2000)
+  }, [])
 
   useEffect(() => {
     browser.tabs.query({ active: true, currentWindow: true }).then((tabs) => {
@@ -75,53 +87,78 @@ function Popup() {
           label={labelMatch.label}
           matchedRule={labelMatch.rule}
           currentUrl={currentUrl}
+          onRuleSaved={() => showBanner(t("popup_ruleSaved"))}
         />
       )
     }
 
     // View 2: URL doesn't match - show add rule form
-    return <PopupAddRule currentUrl={currentUrl} />
+    return (
+      <PopupAddRule
+        currentUrl={currentUrl}
+        onRuleSaved={() => showBanner(t("popup_ruleAdded"))}
+      />
+    )
   }
 
   return (
     <Container p={12} w={300}>
-      <Stack gap={16}>
-        <Group wrap="nowrap" justify="space-between">
-          <Group wrap="nowrap" gap={6}>
-            <Image src="/icon/icon-16.png" w={16} h={16} />
-            <Title order={1} size="h5">
-              {t("popup_title")}
-            </Title>
-          </Group>
-          <Group wrap="nowrap" gap={6}>
-            <Switch
-              size="sm"
-              onLabel={t("popup_switchOn")}
-              offLabel={t("popup_switchOff")}
-              checked={options.isActive}
-              onChange={() => {
-                dispatch({ type: "toggleActive" })
-              }}
-            />
-          </Group>
-        </Group>
+      <Box
+        style={{
+          height: contentHeight,
+          overflow: "hidden",
+          transition: "height 200ms ease",
+        }}
+      >
+        <Box ref={contentRef}>
+          <Stack gap={16}>
+            <Group wrap="nowrap" justify="space-between">
+              <Group wrap="nowrap" gap={6}>
+                <Image src="/icon/icon-16.png" w={16} h={16} />
+                <Title order={1} size="h5">
+                  {t("popup_title")}
+                </Title>
+              </Group>
+              <Group wrap="nowrap" gap={6}>
+                <Switch
+                  size="sm"
+                  onLabel={t("popup_switchOn")}
+                  offLabel={t("popup_switchOff")}
+                  checked={options.isActive}
+                  onChange={() => {
+                    dispatch({ type: "toggleActive" })
+                  }}
+                />
+              </Group>
+            </Group>
 
-        {renderContent()}
+            {renderContent()}
+          </Stack>
 
-        <Divider />
+          {!!bannerMessage && (
+            <Group gap={6} mt={16} c="green">
+              <IconCheck size={13} />
+              <Text size="xs" fw={500}>
+                {bannerMessage}
+              </Text>
+            </Group>
+          )}
 
-        <Button
-          size="xs"
-          fullWidth
-          variant="default"
-          leftSection={<IconSettings size={14} />}
-          onClick={() => {
-            browser.runtime.openOptionsPage()
-          }}
-        >
-          {t("popup_manageLabels")}
-        </Button>
-      </Stack>
+          <Divider my={16} />
+
+          <Button
+            size="xs"
+            fullWidth
+            variant="default"
+            leftSection={<IconSettings size={14} />}
+            onClick={() => {
+              browser.runtime.openOptionsPage()
+            }}
+          >
+            {t("popup_manageLabels")}
+          </Button>
+        </Box>
+      </Box>
     </Container>
   )
 }
