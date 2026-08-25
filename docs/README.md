@@ -22,12 +22,33 @@ You can install WebLabeler directly from the Chrome Web Store or Firefox Add-ons
 - **Quick Access via Popup** 🖱 Easily toggle labels on or off without navigating to the settings.
 - **Export/Import Configurations** 📦 Share label settings with your team or reuse them across projects. Supports URL
   sync with automatic updates.
+- **Enterprise Managed Configuration** 🏢 IT administrators can deploy and manage URL sync settings via Chrome enterprise
+  policies for organization-wide consistency.
 - **Easy Migration** 📥 Migrate your data from other extensions and start using WebLabeler right away.
 - **Sync Across Devices** 🔄 Keep your label configurations synchronized across all your devices
   account sync feature.
 - **Dark Mode Support** 🌙 Enjoy a dark mode option for comfortable use during late-night sessions or in low-light
   environments.
 
+## Enterprise Deployment
+
+WebLabeler supports managed configuration for organizations using Chrome/Edge enterprise policies. IT administrators can configure URL sync settings centrally while users maintain control over their individual labels.
+
+### Extension Policy Configuration Locations
+
+See [configuring-policy-for-extensions](https://www.chromium.org/administrators/configuring-policy-for-extensions/)
+
+### Example Policy Configuration
+
+```json
+{
+  "urlSync": {
+    "enabled": true,
+    "url": "https://company.com/labels.json",
+    "updateFrequency": 60
+  }
+}
+```
 ## Preview:
 
 ![Description of screenshot](./screenshots/1.png)

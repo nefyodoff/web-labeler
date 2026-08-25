@@ -25,5 +25,8 @@
   "optional_host_permissions": ["*://*/*"],
   "background": {
     "service_worker": "assets/service-worker.js"
+  },
+  "storage": {
+    "managed_schema": "managed_schema.json"
   }
 }

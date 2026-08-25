@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "urlSync": {
+      "type": "object",
+      "title": "URL Sync Configuration",
+      "description": "Configure automatic label synchronization from a remote URL. When configured, users cannot modify these settings but can still create and manage their own labels.",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "title": "Enable URL Sync",
+          "description": "Enable or disable automatic synchronization of labels from the configured URL.",
+          "default": false
+        },
+        "url": {
+          "type": "string",
+          "title": "Sync URL",
+          "description": "The URL to fetch label configuration from. Must return valid JSON with a labels array. Supports both http:// and https:// protocols.",
+          "pattern": "^https?://.*"
+        },
+        "updateFrequency": {
+          "type": "integer",
+          "title": "Update Frequency (minutes)",
+          "description": "How often to automatically check for label updates. Available values: 0 (disabled), 15 (every 15 minutes), 30 (every 30 minutes), 60 (hourly), 360 (every 6 hours), 1440 (daily).",
+          "enum": [0, 15, 30, 60, 360, 1440],
+          "default": 0
+        }
+      }
+    }
+  }
+}

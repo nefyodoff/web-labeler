@@ -12,15 +12,18 @@ import {
   IconWorldUpload,
   IconAlertCircle,
   IconRefresh,
+  IconLock,
 } from "@tabler/icons-react";
 import { getRelativeTime, formatUpdateFrequency } from "@/utils/timeFormat";
 import { useAutoSyncStatus } from "./useAutoSyncStatus";
 import { useTranslation } from "@/contexts";
+import { useIsManagedUrlSync } from "@/hooks/useIsManagedUrlSync";
 
 function AutoSyncStatus() {
   const { urlSync, handleToggle, handleManualSync, isLoading } =
     useAutoSyncStatus();
   const { t } = useTranslation();
+  const isManaged = useIsManagedUrlSync();
 
   // Hide widget if frequency is 0 (disabled) or not configured
   if (!urlSync || urlSync.updateFrequency === 0) {
@@ -65,15 +68,31 @@ function AutoSyncStatus() {
             <Text size="xs" c="dimmed" style={{ wordBreak: "break-all" }}>
               {formattedFrequency}
             </Text>
+            {isManaged && (
+              <Badge
+                size="sm"
+                variant="light"
+                color="blue"
+                leftSection={<IconLock size={10} />}
+              >
+                Managed by organization
+              </Badge>
+            )}
           </Stack>
         </HoverCard.Dropdown>
       </HoverCard>
 
-      <Switch
-        size="xs"
-        checked={urlSync.enabled}
-        onChange={(e) => handleToggle(e.currentTarget.checked)}
-      />
+      <Tooltip
+        label={isManaged ? "Settings managed by your organization" : undefined}
+        disabled={!isManaged}
+      >
+        <Switch
+          size="xs"
+          checked={urlSync.enabled}
+          onChange={(e) => handleToggle(e.currentTarget.checked)}
+          disabled={isManaged}
+        />
+      </Tooltip>
 
       <Text size="sm" c="dimmed">
         {t("autoSync_lastPrefix")}

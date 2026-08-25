@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && vite build --config vite.content.config.ts && vite build --config vite.sw.config.ts",
-    "build:chrome": "VITE_BROWSER=chrome npm run build && cp manifests/manifest.chrome.json dist/manifest.json",
+    "build:chrome": "VITE_BROWSER=chrome npm run build && cp manifests/manifest.chrome.json dist/manifest.json && cp manifests/managed_schema.json dist/",
     "build:firefox": "VITE_BROWSER=firefox npm run build && cp manifests/manifest.firefox.json dist/manifest.json",
     "build-watch": "tsc -b && vite build --watch & vite build --config vite.content.config.ts --watch & vite build --config vite.sw.config.ts --watch",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
